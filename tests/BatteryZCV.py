@@ -36,4 +36,5 @@ for info in lineInfos:
 
 labels = ["Battery Capacity", "Open Circuit Voltage", "Battery Resistance"]
 customData = {"xlabel": "X", "ylabel": "Y"}
-MatplotlibZoom.show(callback=defaultShowCallback, rows = 1, cols = 1)
+# MatplotlibZoom.Show(callback=defaultShowCallback, rows = 1, cols = 1)
+MatplotlibZoom.Live(callback=defaultShowCallback, rows = 1, cols = 1)

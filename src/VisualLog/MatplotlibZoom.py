@@ -65,6 +65,7 @@ import weakref
 
 import numpy
 
+import matplotlib.animation as animation
 import matplotlib.pyplot as plot
 
 
@@ -394,22 +395,62 @@ def figure_pan_and_zoom(*args, **kwargs):
     fig.pan_zoom = PanAndZoom(fig)
     return fig
 
-def show(callback = None, rows = 1, cols = 1):
+class Show:
+    def __init__(self, callback = None, rows = 1, cols = 1):
 
-    if callback == None:
-        print("please check your show args")
-        return
+        if callback == None:
+            print("please check your show args")
+            return
 
-    fig = figure_pan_and_zoom()
+        fig = figure_pan_and_zoom()
 
-    for row in range(rows):
-        for col in range(cols):
-            fig.add_subplot(rows, cols, 1 + row * cols + col)
+        for row in range(rows):
+            for col in range(cols):
+                fig.add_subplot(rows, cols, 1 + row * cols + col)
 
-    for index in range(rows * cols):
-        callback(fig, index)
+        for index in range(rows * cols):
+            callback(fig, index)
 
-    plot.show()
+        plot.show()
+
+class Live:
+    def __init__(self, callback, rows = 1, cols = 1, interval = 1000 / 1):
+        if callback == None:
+            print("please check your show args")
+            return
+        
+        self.fig = figure_pan_and_zoom()
+
+        for row in range(rows):
+            for col in range(cols):
+                self.fig.add_subplot(rows, cols, 1 + row * cols + col)
+
+        self.callback = callback
+        self.running = True
+        self.count = rows * cols
+        self.fig.canvas.mpl_connect('key_press_event', self._defaultEventCallback)
+        self.ant = animation.FuncAnimation(self.fig, self._loopCallback, interval=interval)
+
+        self._loopCallback()
+
+        plot.show()
+
+    def _loopCallback(self, *args):
+        if self.running:
+            for index in range(self.count):
+                self.fig.get_axes()[index].cla()
+                self.callback(self.fig, index)
+
+    def _defaultEventCallback(self, event):
+        if event.key == "q":
+            exit(0)
+        elif event.key == "r":
+            if self.running:
+                self.running = False
+            else:
+                self.running = True
+            
+            print("Animation status: " + str(self.running))
 
 if __name__ == "__main__":
     import matplotlib.pyplot as plt
