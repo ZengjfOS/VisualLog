@@ -4,10 +4,10 @@
 
 # Example
 
-* [BatteryZCV.py](https://github.com/ZengjfOS/VisualLog/tests/BatteryZCV.py)
+* [BatteryZCV.py](tests/BatteryZCV.py)
   * LogParser
   * MatplotlibZoom
-* [SameLines.py](https://github.com/ZengjfOS/VisualLog/tests/SameLines.py)
+* [SameLines.py](tests/SameLines.py)
   * SameLines
 
 # 发行PyPi处理流程
