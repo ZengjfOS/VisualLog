@@ -6,3 +6,4 @@ output/*
 dist
 *.egg-info
 build
+.DS_Store
