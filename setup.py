@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="VisualLog",
-    version="0.0.0",
+    version="0.0.1",
     author="zengjf",
     author_email="zengjf42@163.com",
     description="Visual Log",

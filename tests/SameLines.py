@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import VisualLog.SameLines as SameLines
 
 old = [

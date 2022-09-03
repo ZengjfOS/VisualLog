@@ -8,7 +8,7 @@
   * LogParser
   * MatplotlibZoom
 * [SameLines.py](tests/SameLines.py)
-  * SameLines
+* [ShellCmd.py](/tests/ShellCmd.py)
 
 # 发行PyPi处理流程
 
