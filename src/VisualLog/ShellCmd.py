@@ -18,6 +18,8 @@ class Shell:
 
         while True:
             line = processData.stdout.readline().decode('utf-8')
+            if len(line) == 0:
+                break
 
             if self.callback(line.strip()):
                 lines.append(line.rstrip())
