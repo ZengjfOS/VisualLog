@@ -29,6 +29,7 @@ class Shell:
                 break
             
             if self.exit:
+                print("exit: " + cmd)
                 break
         
         return lines
@@ -43,6 +44,6 @@ class Shell:
         return self
 
     def stop(self):
-        self.exit = False
+        self.exit = True
 
         return self

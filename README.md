@@ -2,13 +2,14 @@
 
 可视化log分析工具，解决常用的log数据可视化需求
 
-# Example
+# docs
 
-* [BatteryZCV.py](tests/BatteryZCV.py)
-  * LogParser
-  * MatplotlibZoom
-* [SameLines.py](tests/SameLines.py)
-* [ShellCmd.py](/tests/ShellCmd.py)
+NO.|文件名称|摘要
+:--:|:--|:--
+0004| [ShellCmd](docs/0004_ShellCmd.md) | 获取shell命令数据
+0003| [SameLines](docs/0003_SameLines.md) | 比较两个文本数组
+0002| [MatplotlibZoom](docs/0002_MatplotlibZoom.md) | Matplotlib绘制可缩放、平移可视化数据
+0001| [LogParser](docs/0001_LogParser.md) | Kernel、Logcat、文本数据提取
 
 # 发行PyPi处理流程
 

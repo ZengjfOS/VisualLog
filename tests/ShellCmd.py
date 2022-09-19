@@ -9,15 +9,17 @@ shell = ShellCmd.Shell()
 print(shell.run('adb devices'))
 print(shell.run('adb shell ls'))
 
-# _thread.start_new_thread(shell.run, ('adb shell logcat',))
+# _thread.start_new_thread(shell.run, ('adb logcat',))
 # sleep(2)
-# print(shell.stop())
+# shell.stop()
+# sleep(2)
 
 print("----------------------")
 def callback(line):
+    print(line)
     if "sys" in line:
         return True
     else:
         return False
 
-print(shell.reset(callback=callback).run('adb shell ls'))
+print(shell.reset(callback=callback).run('top'))

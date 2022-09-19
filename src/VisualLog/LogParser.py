@@ -54,8 +54,8 @@ def dateLineCallback(lineInfo, col = 1):
             continue
 
         if index == col:
-            timeString = today_year + "-" + lineInfo[0] + " " + lineInfo[index].split(".")[0]
-            currentDate = datetime.datetime.strptime(timeString.split(".")[0], "%Y-%m-%d %H:%M:%S")
+            timeString = today_year + "-" + lineInfo[0] + " " + lineInfo[index]
+            currentDate = datetime.datetime.strptime(timeString, "%Y-%m-%d %H:%M:%S.%f")
             lineInfoFixed.append(currentDate)
             continue
 
