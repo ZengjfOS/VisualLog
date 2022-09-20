@@ -8,6 +8,10 @@ Kernel、Logcat、文本数据提取
 * regex：被解析的文件每行数据才用这个正则表达式进行匹配
 * callback：如果regex找到了数据，调用这个回调函数
 * fileEncode：解析file的时候才用的编码格式
+  * `utf-8`
+  * `ISO-8859-1`
+  * `GB2312`
+  * `gbk`
 
 ```python
 def logFileParser(file = None, regex = None , callback=defaultLineCallback, fileEncode = "utf-8"):
@@ -66,7 +70,13 @@ logcat
 
 ```python
 # 06-29 09:37:46.551252  2283  2283 I DebugLoggerUI/MainActivity: onPause
-r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+(.*)',
+r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+(.*)'
+
+# 09-19 14:19:17.183  1027  1110 I DisplayPowerController[0]: No longer ignoring proximity [1]
+r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+.*: No longer ignoring proximity \[(\d)\]'
+
+# 09-09 18:24:12.680436   571   628 I Light   : event->word[0]=400,  event->word[1]=0,event->word[2]=0
+r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+Light\s*:\s.*=(\d*),\s*.*=(\d*),\s*.*=(\d*)'
 ```
 
 # callback示例
