@@ -77,11 +77,16 @@ r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+.*: No longer ign
 
 # 09-09 18:24:12.680436   571   628 I Light   : event->word[0]=400,  event->word[1]=0,event->word[2]=0
 r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+Light\s*:\s.*=(\d*),\s*.*=(\d*),\s*.*=(\d*)'
+
+# Signed image is stored at /home/zengjf/zengjf/android/xxxxxx/xbl.elf
+# Processing 1/25: /home/zengjf/zengjf/android/xxxxxx/xbl.elf
+r'(Signed image is stored at (.*)|Processing \d*/\d*: (.*))',
 ```
 
 # callback示例
 
 ```python
+# 直接添加
 def defaultLineCallback(lineInfo):
     lineInfoFixed = []
 
@@ -90,7 +95,7 @@ def defaultLineCallback(lineInfo):
     
     return lineInfoFixed
 
-
+# 转float
 def floatLineCallback(lineInfo):
     lineInfoFixed = []
 
@@ -99,6 +104,7 @@ def floatLineCallback(lineInfo):
     
     return lineInfoFixed
 
+# 转日期
 def dateLineCallback(lineInfo, col = 1):
     lineInfoFixed = []
     today_year = str(datetime.date.today().year)
@@ -116,4 +122,17 @@ def dateLineCallback(lineInfo, col = 1):
         lineInfoFixed.append(lineInfo[index])
     
     return lineInfoFixed
+
+# 多个正则表达式匹配获取组合数据帧，配合类使用
+def frameLineCallback(self, lineInfo, col = 1):
+    if lineInfo[0].startswith("Signed image is"):
+        self.currentInfo.append(lineInfo[1].split("/sectools/")[1])
+        return self.currentInfo
+
+    if lineInfo[0].startswith("Processing "):
+        self.currentInfo = []
+        self.currentInfo.append(lineInfo[2].split("/xxxxxx/")[1])
+        return None
+
+    return None
 ```

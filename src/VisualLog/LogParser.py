@@ -29,7 +29,9 @@ def logFileParser(file = None, regex = None , callback=defaultLineCallback, file
                 foundList = re.search(regex, line.strip(), re.M | re.I)
                 if foundList:
                     if callback != None:
-                        lineInfos.append(callback([s.strip() for s in foundList.groups()]))
+                        ret = callback(foundList.groups())
+                        if ret != None:
+                            lineInfos.append(ret)
                     else:
                         lineInfos.append(defaultLineCallback([s.strip() for s in foundList.groups()]))
     else:
