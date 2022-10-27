@@ -2,6 +2,7 @@
 
 import re
 import datetime
+import os
 
 def defaultLineCallback(lineInfo):
     lineInfoFixed = []
@@ -11,7 +12,28 @@ def defaultLineCallback(lineInfo):
     
     return lineInfoFixed
 
+def getFiles(path) :
+    for (dirpath, dirnames, filenames) in os.walk(path) :
+        dirpath = dirpath
+        dirnames = dirnames
+        filenames = filenames
+        return filenames
+
+    return []
+
 def logFileParser(file = None, regex = None , callback=defaultLineCallback, fileEncode = "utf-8"):
+    if os.path.isdir(file):
+        lineInfos = []
+        filenames = []
+        for f in getFiles(file):
+            lineInfos.append(_logFileParser(file + "/" + f, regex, callback, fileEncode))
+            filenames.append(f)
+        return lineInfos, filenames
+
+    if os.path.isfile(file):
+        return _logFileParser(file, regex, callback, fileEncode)
+
+def _logFileParser(file = None, regex = None , callback=defaultLineCallback, fileEncode = "utf-8"):
     lineInfos = []
 
     if file != None and isinstance(file, str) and (regex != None):
