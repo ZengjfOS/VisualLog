@@ -21,19 +21,19 @@ def getFiles(path) :
 
     return []
 
-def logFileParser(file = None, regex = None , callback=defaultLineCallback, fileEncode = "utf-8"):
+def logFileParser(file = None, regex = None , callback = defaultLineCallback, fileEncode = "utf-8", includes = []):
     if os.path.isdir(file):
         lineInfos = []
         filenames = []
         for f in getFiles(file):
-            lineInfos.append(_logFileParser(file + "/" + f, regex, callback, fileEncode))
+            lineInfos.append(_logFileParser(file + "/" + f, regex, callback, fileEncode, includes))
             filenames.append(f)
         return lineInfos, filenames
 
     if os.path.isfile(file):
-        return _logFileParser(file, regex, callback, fileEncode)
+        return _logFileParser(file, regex, callback, fileEncode, includes)
 
-def _logFileParser(file = None, regex = None , callback=defaultLineCallback, fileEncode = "utf-8"):
+def _logFileParser(file = None, regex = None , callback = defaultLineCallback, fileEncode = "utf-8", includes = []):
     lineInfos = []
 
     if file != None and isinstance(file, str) and (regex != None):
@@ -47,6 +47,11 @@ def _logFileParser(file = None, regex = None , callback=defaultLineCallback, fil
                 #             lineInfos.append(callback([s.strip() for s in foundList[0]]))
                 #     else:
                 #         lineInfos.append(defaultLineCallback([s.strip() for s in foundList[0]]))
+
+                for include in includes:
+                    if include in line:
+                        callback(line)
+                        break
 
                 foundList = re.search(regex, line.strip(), re.M | re.I)
                 if foundList:
