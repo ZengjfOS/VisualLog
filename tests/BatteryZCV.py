@@ -27,7 +27,7 @@ filename = "default/zcv.txt"
 # 2705    42248   1025
 lineInfos = LogParser.logFileParser(
         filename,
-        r'(\d+)\s+(\d+)\s+(\d+)',
+        [r'(\d+)\s+(\d+)\s+(\d+)'],
         callback=defaultLineCallback
     )
 

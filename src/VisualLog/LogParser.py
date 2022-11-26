@@ -22,6 +22,24 @@ def getFiles(path) :
     return []
 
 def logFileParser(file = None, regex = None , callback=defaultLineCallback, fileEncode = "utf-8"):
+    '''
+    regex
+
+    * r'(\d+.\d+)\s+:(.*):\s+(\w*):\s*(.*)'
+    * r'(\d+)\s+(\d+)\s+(\d+)'
+    * r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+(.*)'
+    * r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+.*: No longer ignoring proximity \[(\d)\]'
+    * r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+Light\s*:\s.*=(\d*),\s*.*=(\d*),\s*.*=(\d*)'
+    * r'(Signed image is stored at (.*)|Processing \d*/\d*: (.*))'
+
+    fileEncode: 
+
+    * utf-8
+    * ISO-8859-1
+    * GB2312
+    * gbk
+    '''
+
     if os.path.isdir(file):
         lineInfos = []
         filenames = []
@@ -33,29 +51,27 @@ def logFileParser(file = None, regex = None , callback=defaultLineCallback, file
     if os.path.isfile(file):
         return _logFileParser(file, regex, callback, fileEncode)
 
+def _regexLineInfo(regex, line, callback, lineInfos):
+    foundList = re.search(regex, line.strip(), re.M | re.I)
+    if foundList:
+        if callback != None:
+            ret = callback(foundList.groups())
+            if ret != None:
+                lineInfos.append(ret)
+        else:
+            lineInfos.append(defaultLineCallback([s.strip() for s in foundList.groups()]))
+
 def _logFileParser(file = None, regex = None , callback=defaultLineCallback, fileEncode = "utf-8"):
     lineInfos = []
 
     if file != None and isinstance(file, str) and (regex != None):
         with open(file, mode = "r", encoding = fileEncode) as fd:
             for line in fd:
-                # foundList = re.findall(regex, line, re.M | re.I)
-                # if foundList:
-                #     if callback != None:
-                #         # 一行文字可能存在多个匹配的，目前只取一个匹配的
-                #         if len(foundList) == 1:
-                #             lineInfos.append(callback([s.strip() for s in foundList[0]]))
-                #     else:
-                #         lineInfos.append(defaultLineCallback([s.strip() for s in foundList[0]]))
-
-                foundList = re.search(regex, line.strip(), re.M | re.I)
-                if foundList:
-                    if callback != None:
-                        ret = callback(foundList.groups())
-                        if ret != None:
-                            lineInfos.append(ret)
-                    else:
-                        lineInfos.append(defaultLineCallback([s.strip() for s in foundList.groups()]))
+                if isinstance(regex, list):
+                    for item in regex:
+                        _regexLineInfo(item, line, callback, lineInfos)
+                else:
+                    _regexLineInfo(regex, line, callback, lineInfos)
     else:
         return None
     
