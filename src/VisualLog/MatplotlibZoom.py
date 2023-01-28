@@ -67,6 +67,7 @@ import numpy
 
 import matplotlib.animation as animation
 import matplotlib.pyplot as plot
+from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
 
 
 class MplInteraction(object):
@@ -396,13 +397,25 @@ def figure_pan_and_zoom(*args, **kwargs):
     return fig
 
 class Show:
-    def __init__(self, callback = None, rows = 1, cols = 1):
+    def __init__(self, callback = None, rows = 1, cols = 1, frame = None):
 
         if callback == None:
             print("please check your show args")
             return
 
         fig = figure_pan_and_zoom()
+
+        if frame != None:
+            # creating the Tkinter canvas
+            # containing the Matplotlib figure
+            canvas = FigureCanvasTkAgg(fig, master = frame)  
+            # placing the canvas on the Tkinter window
+            canvas.get_tk_widget().pack(side="top",fill='both',expand=True)
+
+            # creating the Matplotlib toolbar
+            toolbar = NavigationToolbar2Tk(canvas, frame)
+            # placing the toolbar on the Tkinter window
+            canvas.get_tk_widget().pack(side="top",fill='both',expand=True)
 
         for row in range(rows):
             for col in range(cols):
@@ -411,7 +424,12 @@ class Show:
         for index in range(rows * cols):
             callback(fig, index)
 
-        plot.show()
+        if frame != None:
+            # update
+            canvas.draw()
+            toolbar.update()
+        else:
+            plot.show()
 
 class Live:
     def __init__(self, callback, rows = 1, cols = 1, interval = 1000 / 1):
