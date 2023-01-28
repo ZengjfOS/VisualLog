@@ -428,7 +428,6 @@ class Show:
             # update
             canvas.draw()
             toolbar.update()
-            plot.close()
         else:
             plot.show()
 
