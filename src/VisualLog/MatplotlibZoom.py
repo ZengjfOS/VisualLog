@@ -68,7 +68,7 @@ import numpy
 import matplotlib.animation as animation
 import matplotlib.pyplot as plot
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
-
+import platform
 
 class MplInteraction(object):
     """Base class for class providing interaction to a matplotlib Figure."""
@@ -409,6 +409,9 @@ class Show:
             # creating the Tkinter canvas
             # containing the Matplotlib figure
             canvas = FigureCanvasTkAgg(fig, master = frame)  
+            if (platform.system() == "Darwin"):
+                canvas.get_tk_widget().pack(side = "top", fill = "both", expand = True)
+
             # creating the Matplotlib toolbar
             toolbar = NavigationToolbar2Tk(canvas, frame)
 
@@ -425,9 +428,7 @@ class Show:
             toolbar.update()
 
             # placing the canvas on the Tkinter window
-            canvas.get_tk_widget().pack(side="top",fill='both',expand=True)
-            # placing the toolbar on the Tkinter window
-            canvas.get_tk_widget().pack(side="top",fill='both',expand=True)
+            canvas.get_tk_widget().pack(side = "top", fill = "both", expand = True)
         else:
             plot.show()
 
