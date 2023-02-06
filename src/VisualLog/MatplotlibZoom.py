@@ -409,13 +409,8 @@ class Show:
             # creating the Tkinter canvas
             # containing the Matplotlib figure
             canvas = FigureCanvasTkAgg(fig, master = frame)  
-            # placing the canvas on the Tkinter window
-            canvas.get_tk_widget().pack(side="top",fill='both',expand=True)
-
             # creating the Matplotlib toolbar
             toolbar = NavigationToolbar2Tk(canvas, frame)
-            # placing the toolbar on the Tkinter window
-            canvas.get_tk_widget().pack(side="top",fill='both',expand=True)
 
         for row in range(rows):
             for col in range(cols):
@@ -428,6 +423,11 @@ class Show:
             # update
             canvas.draw()
             toolbar.update()
+
+            # placing the canvas on the Tkinter window
+            canvas.get_tk_widget().pack(side="top",fill='both',expand=True)
+            # placing the toolbar on the Tkinter window
+            canvas.get_tk_widget().pack(side="top",fill='both',expand=True)
         else:
             plot.show()
 
