@@ -52,21 +52,31 @@ for info in lineInfos:
 
 # 正则表达式示例
 
-kernel
+## kernel
+
+* [BatteryInfoDischarge.py](/tests/BatteryInfoDischarge.py)
 
 ```python
 # 15932.513576 : 1138-android.bg      : AP_Launch: com.android.settings/.FallbackHome 756ms
 r'(\d+.\d+)\s+:(.*):\s+(\w*):\s*(.*)'
+
+# <5>[  313.509051]  (0)[235:battery_thread]car[-30,251,-251,50,-259] tmp:30 soc:100 uisoc:97 vbat:4297 ibat:-2762 algo:0 gm3:0 0 0 0,boot:0
+r'\[\s*(\d*\.\d*)\].*\d*\:battery_thread.*tmp:(\d*) soc:(\d*) uisoc:(\d*) vbat:(\d*) ibat:([-]?\d*)'
 ```
 
-ZCV
+## ZCV
+
+* [BatteryZCV.py](/tests/BatteryZCV.py)
 
 ```python
 # 2705    42248   1025
 r'(\d+)\s+(\d+)\s+(\d+)'
 ```
 
-logcat
+## logcat
+
+* [MonotoneCubicSpline.py](/tests/MonotoneCubicSpline.py)
+* [AmbienteLight.py](/tests/AmbienteLight.py)
 
 ```python
 # 06-29 09:37:46.551252  2283  2283 I DebugLoggerUI/MainActivity: onPause
@@ -77,7 +87,13 @@ r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+.*: No longer ign
 
 # 09-09 18:24:12.680436   571   628 I Light   : event->word[0]=400,  event->word[1]=0,event->word[2]=0
 r'(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)\s+\d+\s+\d+\s+\w+\s+Light\s*:\s.*=(\d*),\s*.*=(\d*),\s*.*=(\d*)'
+```
 
+## 数据帧
+
+* [SecImageFile.py](/tests/SecImageFile.py)
+
+```python
 # Signed image is stored at /home/zengjf/zengjf/android/xxxxxx/xbl.elf
 # Processing 1/25: /home/zengjf/zengjf/android/xxxxxx/xbl.elf
 r'(Signed image is stored at (.*)|Processing \d*/\d*: (.*))',

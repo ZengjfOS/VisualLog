@@ -1,0 +1,50 @@
+Processing 1/25: /home/zengjf/zengjf/android/6552/BOOT.XF.4.1/boot_images/QcomPkg/SocPkg/DivarPkg/Bin/LAA/RELEASE/xbl.elf
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/xbl/xbl.elf
+Processing 2/25: /home/zengjf/zengjf/android/6552/MPSS.HA.1.1/modem_proc/build/ms/bin/divar.gennm.prod/qdsp6sw.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/modem/modem.mbn
+Processing 3/25: /home/zengjf/zengjf/android/6552/BOOT.XF.4.1/boot_images/QcomPkg/SocPkg/DivarPkg/Bin/LAA/RELEASE/prog_firehose_ddr.elf
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/prog_firehose_ddr/prog_firehose_ddr.elf
+Processing 4/25: /home/zengjf/zengjf/android/6552/BOOT.XF.4.1/boot_images/QcomPkg/SocPkg/DivarPkg/Bin/LAA/RELEASE/prog_firehose_lite.elf
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/prog_firehouse_lite/prog_firehose_lite.elf
+Processing 5/25: /home/zengjf/zengjf/android/6552/ADSP.VT.5.4.3/adsp_proc/obj/qdsp6v5_ReleaseG/divar.adsp.prod/adsp.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/adsp/adsp.mbn
+Processing 6/25: /home/zengjf/zengjf/android/6552/TZ.XF.5.1/trustzone_images/build/ms/bin/FATAANAA/devcfg.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/devcfg/devcfg.mbn
+Processing 7/25: /home/zengjf/zengjf/android/6552/TZ.XF.5.1/trustzone_images/build/ms/bin/FATAANAA/tz.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/tz/tz.mbn
+Processing 8/25: /home/zengjf/zengjf/android/6552/RPM.BF.1.10/rpm_proc/build/ms/bin/divar/sdm_ddr4/rpm.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/rpm/rpm.mbn
+Processing 9/25: /home/zengjf/zengjf/android/6552/TZ.XF.5.1/trustzone_images/build/ms/bin/FATAANAA/smplap32.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/sampleapp32/smplap32.mbn
+Processing 10/25: /home/zengjf/zengjf/android/6552/TZ.XF.5.1/trustzone_images/build/ms/bin/FATAANAA/smplap64.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/sampleapp64/smplap64.mbn
+Processing 11/25: /home/zengjf/zengjf/android/6552/TZ.APPS.2.0/qtee_tas/build/ms/bin/FATAANAA/storsec.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/storsec/storsec.mbn
+Processing 12/25: /home/zengjf/zengjf/android/6552/TZ.APPS.2.0/qtee_tas/build/ms/bin/FATAANAA/uefi_sec.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/uefisecapp/uefi_sec.mbn
+Processing 13/25: /home/zengjf/zengjf/android/6552/TZ.APPS.2.0/qtee_tas/build/ms/bin/FATAANAA/km41.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/keymaster/km41.mbn
+Processing 14/25: /home/zengjf/zengjf/android/6552/TZ.APPS.2.0/qtee_tas/build/ms/bin/FATAANAA/km41.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/km41/km41.mbn
+Processing 15/25: /home/zengjf/zengjf/android/6552/TZ.APPS.2.0/qtee_tas/build/ms/bin/FATAANAA/hdcpsrm.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/hdcpsrm/hdcpsrm.mbn
+Processing 16/25: /home/zengjf/zengjf/android/6552/VIDEO.VE.6.0/venus_proc/build/bsp/asic/build/PROD/mbn/reloc/socCheck/signed/venus.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/venus/venus.mbn
+Processing 17/25: /home/zengjf/zengjf/android/6552/WLAN.HL.3.2.4/wlan_proc/build/ms/bin/QCAHNALADIVAR/signed/wlanmdsp.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/wlan/wlanmdsp.mbn
+Processing 18/25: /home/zengjf/zengjf/android/6552/LA.UM.9.15.r1/LINUX/qcom_vendor/out/target/product/tc6552/vendor/firmware/a610_zap.elf
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/gfx_microcode/a610_zap.elf
+Processing 19/25: /home/zengjf/zengjf/android/6552/TZ.XF.5.1/trustzone_images/build/ms/bin/FATAANAA/hyp.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/hyp/hyp.mbn
+Processing 20/25: /home/zengjf/zengjf/android/6552/CDSP.VT.2.4.1/cdsp_proc/obj/qdsp6v5_ReleaseG/divar.cdsp.prod/cdsp.mbn
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/cdsp/cdsp.mbn
+Processing 21/25: /home/zengjf/zengjf/android/6552/LA.UM.9.15.r1/LINUX/qcom_vendor/out/target/product/tc6552/abl.elf
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/abl/abl.elf
+Processing 22/25: /home/zengjf/zengjf/android/6552/LA.UM.9.15.r1/LINUX/qcom_vendor/out/target/product/tc6552/ipa/signed/ipa_fws.elf
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/ipa_fw/ipa_fws.elf
+Processing 23/25: /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/core_qupv3fw/divar/qupv3fw.elf
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/qupv3/qupv3fw.elf
+Processing 24/25: /home/zengjf/zengjf/android/6552/BOOT.XF.4.1/boot_images/QcomPkg/SocPkg/DivarPkg/Bin/LAA/RELEASE/xbl_config.elf
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/xbl_config/xbl_config.elf
+Processing 25/25: /home/zengjf/zengjf/android/6552/BOOT.XF.4.1/boot_images/QcomPkg/SocPkg/DivarPkg/Bin/LAA/RELEASE/imagefv.elf
+Signed image is stored at /home/zengjf/zengjf/android/6552/Divar.LA.2.0/common/sectools/divar/imagefv/imagefv.elf

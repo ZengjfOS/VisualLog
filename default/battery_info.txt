@@ -1,0 +1,1057 @@
+<6>[  313.506395]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x534, adc_result=585
+<6>[  313.507059]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  313.508832]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65e0, adc_result=4297
+<5>[  313.509051]  (0)[235:battery_thread]car[-30,251,-251,50,-259] tmp:30 soc:100 uisoc:97 vbat:4297 ibat:-2762 algo:0 gm3:0 0 0 0,boot:0
+<6>[  313.509590]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x534, adc_result=585
+<6>[  313.510252]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  313.510267]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:56, bat_temp = 30
+<5>[  313.510300]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:259 sw_iavg:-2084 -2084 0 nafg_m:5 0 0
+<5>[  313.510382]  (0)[235:battery_thread]battery_update_routine
+<6>[  373.513515]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x536, adc_result=586
+<6>[  373.515239]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  373.517079]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x64fc, adc_result=4260
+<5>[  373.517317]  (1)[235:battery_thread]car[-94,251,-251,16,-259] tmp:30 soc:100 uisoc:98 vbat:4260 ibat:-5368 algo:0 gm3:0 0 0 0,boot:0
+<6>[  373.517863]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x535, adc_result=585
+<6>[  373.519010]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  373.519035]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:116, bat_temp = 30
+<5>[  373.519316]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:259 sw_iavg:-2917 -2917 0 nafg_m:11 0 0
+<5>[  373.519381]  (1)[235:battery_thread]battery_update_routine
+<6>[  433.521916]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x54b, adc_result=595
+<6>[  433.522571]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  433.524325]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65f9, adc_result=4301
+<5>[  433.524583]  (0)[235:battery_thread]car[-138,153,-349,-48,-259] tmp:29 soc:100 uisoc:98 vbat:4301 ibat:-2385 algo:0 gm3:0 0 0 0,boot:0
+<6>[  433.525121]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x54b, adc_result=595
+<6>[  433.525800]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  433.525815]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  433.526098]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:259 sw_iavg:-2640 -2640 0 nafg_m:5 0 0
+<5>[  433.526585]  (0)[235:battery_thread]battery_update_routine
+<6>[  493.528639]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x552, adc_result=598
+<6>[  493.529290]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  493.531054]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65eb, adc_result=4299
+<5>[  493.531268]  (0)[235:battery_thread]car[-177,153,-349,-48,-259] tmp:29 soc:100 uisoc:98 vbat:4299 ibat:-2156 algo:0 gm3:0 0 0 0,boot:0
+<5>[  493.532581]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  493.532858]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:259 sw_iavg:-2340 -2340 0 nafg_m:11 0 0
+<5>[  493.533491]  (0)[235:battery_thread]battery_update_routine
+<6>[  553.535674]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x554, adc_result=599
+<6>[  553.536335]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  553.538118]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65e4, adc_result=4298
+<5>[  553.538346]  (0)[235:battery_thread]car[-217,65,-437,-136,-259] tmp:29 soc:100 uisoc:98 vbat:4298 ibat:-2351 algo:0 gm3:0 0 0 0,boot:0
+<6>[  553.538794]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x555, adc_result=599
+<6>[  553.539437]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  553.539453]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  553.539797]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:259 sw_iavg:-2400 -2400 0 nafg_m:4 0 0
+<5>[  553.540343]  (0)[235:battery_thread]battery_update_routine
+<6>[  613.542504]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x556, adc_result=600
+<6>[  613.543215]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  613.544994]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65e1, adc_result=4298
+<5>[  613.545218]  (0)[235:battery_thread]car[-256,65,-437,-136,-259] tmp:29 soc:100 uisoc:98 vbat:4298 ibat:-2326 algo:0 gm3:0 0 0 0,boot:0
+<6>[  613.545782]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x557, adc_result=600
+<6>[  613.546430]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  613.546445]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  613.546699]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:259 sw_iavg:-2340 -2340 0 nafg_m:10 0 0
+<5>[  613.547265]  (0)[235:battery_thread]battery_update_routine
+<6>[  673.549433]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x554, adc_result=599
+<6>[  673.550099]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  673.551927]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65d3, adc_result=4295
+<5>[  673.552200]  (0)[235:battery_thread]car[-300,-26,-528,-227,-512] tmp:29 soc:99 uisoc:98 vbat:4295 ibat:-2357 algo:0 gm3:0 0 0 0,boot:0
+<6>[  673.552746]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x554, adc_result=599
+<6>[  673.553383]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  673.553399]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  673.553687]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:251 sw_iavg:-2640 -2640 0 nafg_m:2 0 0
+<5>[  673.554738]  (0)[235:battery_thread]battery_update_routine
+<6>[  733.555766]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x556, adc_result=600
+<6>[  733.556485]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  733.558238]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65d7, adc_result=4296
+<5>[  733.558458]  (0)[235:battery_thread]car[-341,-26,-528,-227,-512] tmp:29 soc:99 uisoc:98 vbat:4296 ibat:-2498 algo:0 gm3:0 0 0 0,boot:0
+<6>[  733.559013]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x557, adc_result=600
+<6>[  733.561000]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  733.561045]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  733.561282]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:251 sw_iavg:-2460 -2460 0 nafg_m:8 0 0
+<5>[  733.561844]  (0)[235:battery_thread]battery_update_routine
+<6>[  793.563909]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x556, adc_result=600
+<6>[  793.564609]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  793.566358]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65d0, adc_result=4295
+<5>[  793.566611]  (0)[235:battery_thread]car[-382,-26,-528,-227,-512] tmp:29 soc:99 uisoc:98 vbat:4295 ibat:-2376 algo:0 gm3:0 0 0 0,boot:0
+<6>[  793.567146]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x556, adc_result=600
+<6>[  793.567847]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  793.567863]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  793.568115]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:251 sw_iavg:-2460 -2460 0 nafg_m:14 0 0
+<5>[  793.568661]  (0)[235:battery_thread]battery_update_routine
+<6>[  853.570821]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x558, adc_result=601
+<6>[  853.571520]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  853.573275]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65c9, adc_result=4294
+<5>[  853.573505]  (0)[235:battery_thread]car[-421,-132,-634,-333,-512] tmp:29 soc:99 uisoc:98 vbat:4294 ibat:-2357 algo:0 gm3:0 0 0 0,boot:0
+<6>[  853.574058]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x558, adc_result=601
+<6>[  853.574720]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  853.574735]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  853.575001]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:251 sw_iavg:-2340 -2340 0 nafg_m:5 0 0
+<5>[  853.575486]  (0)[235:battery_thread]battery_update_routine
+<6>[  913.577690]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x559, adc_result=601
+<6>[  913.578364]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  913.580421]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65c3, adc_result=4293
+<5>[  913.580681]  (0)[235:battery_thread]car[-460,-132,-634,-333,-512] tmp:29 soc:99 uisoc:98 vbat:4293 ibat:-2370 algo:0 gm3:0 0 0 0,boot:0
+<5>[  913.581841]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  913.582094]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:251 sw_iavg:-2340 -2340 0 nafg_m:11 0 0
+<5>[  913.582645]  (0)[235:battery_thread]battery_update_routine
+<6>[  973.584795]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x558, adc_result=601
+<6>[  973.585440]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[  973.587208]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65c2, adc_result=4292
+<5>[  973.587421]  (0)[235:battery_thread]car[-499,-236,-738,-437,-512] tmp:29 soc:99 uisoc:98 vbat:4292 ibat:-2344 algo:0 gm3:0 0 0 0,boot:0
+<6>[  973.587876]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x557, adc_result=600
+<6>[  973.588653]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[  973.588668]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[  973.588928]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:251 sw_iavg:-2340 -2340 0 nafg_m:1 0 0
+<5>[  973.589380]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1033.591492]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x555, adc_result=599
+<6>[ 1033.592309]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1033.595632]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65d0, adc_result=4295
+<5>[ 1033.595882]  (0)[235:battery_thread]car[-538,-262,-764,-463,-769] tmp:29 soc:99 uisoc:97 vbat:4295 ibat:-2561 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1033.596444]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x554, adc_result=599
+<6>[ 1033.597101]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1033.597117]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[ 1033.597359]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:256 sw_iavg:-2340 -2340 0 nafg_m:7 0 0
+<5>[ 1033.597857]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1093.599946]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x554, adc_result=599
+<6>[ 1093.600603]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1093.602360]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x6584, adc_result=4282
+<5>[ 1093.602591]  (0)[235:battery_thread]car[-577,-262,-764,-463,-769] tmp:29 soc:99 uisoc:97 vbat:4282 ibat:-2860 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1093.603165]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x554, adc_result=599
+<6>[ 1093.603793]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1093.603810]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[ 1093.604097]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:256 sw_iavg:-2340 -2340 0 nafg_m:13 0 0
+<5>[ 1093.604580]  (1)[235:battery_thread]battery_update_routine
+<6>[ 1153.606718]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x555, adc_result=599
+<6>[ 1153.607377]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1153.609133]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65b5, adc_result=4290
+<5>[ 1153.609362]  (0)[235:battery_thread]car[-616,-346,-848,-547,-769] tmp:29 soc:99 uisoc:97 vbat:4290 ibat:-2344 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1153.609931]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x555, adc_result=599
+<6>[ 1153.610575]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1153.610590]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[ 1153.610847]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:256 sw_iavg:-2340 -2340 0 nafg_m:2 0 0
+<5>[ 1153.610928]  (0)[235:battery_thread]battery_update_routine
+<5>[ 1213.615046]  (0)[235:battery_thread]car[-656,-346,-848,-547,-769] tmp:29 soc:99 uisoc:97 vbat:4250 ibat:-5258 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 1213.616215]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[ 1213.616450]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:256 sw_iavg:-2400 -2400 0 nafg_m:8 0 0
+<5>[ 1213.616844]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1273.619026]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x559, adc_result=601
+<6>[ 1273.619802]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1273.621605]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x65a9, adc_result=4288
+<5>[ 1273.621861]  (0)[235:battery_thread]car[-697,-346,-848,-547,-769] tmp:29 soc:99 uisoc:97 vbat:4288 ibat:-2376 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1273.622399]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x559, adc_result=601
+<6>[ 1273.623089]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1273.623104]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 29
+<5>[ 1273.623385]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:256 sw_iavg:-2460 -2460 0 nafg_m:14 0 0
+<5>[ 1273.623766]  (1)[235:battery_thread]battery_update_routine
+<5>[ 1333.629233]  (0)[235:battery_thread]car[-215,72,-430,-129,-258] tmp:32 soc:100 uisoc:97 vbat:4067 ibat:-16288 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 1333.630428]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:47, bat_temp = 32
+<5>[ 1333.630463]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:258 sw_iavg:-2460 -2460 0 nafg_m:0 0 0
+<5>[ 1333.630922]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1393.631901]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x4c2, adc_result=535
+<6>[ 1393.632562]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1393.634310]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x6005, adc_result=4050
+<5>[ 1393.634542]  (0)[235:battery_thread]car[-486,-108,-610,-309,-520] tmp:33 soc:99 uisoc:97 vbat:4050 ibat:-16263 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1393.635097]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x4c1, adc_result=534
+<6>[ 1393.635821]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1393.635838]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:107, bat_temp = 33
+<5>[ 1393.637665]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:259 sw_iavg:-16351 -16351 0 nafg_m:2 0 0
+<5>[ 1393.637689]  (1)[235:battery_thread]battery_update_routine
+<6>[ 1453.638585]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x4b7, adc_result=530
+<6>[ 1453.639279]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1453.641031]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5fbf, adc_result=4039
+<5>[ 1453.641276]  (0)[235:battery_thread]car[-757,-467,-969,-668,-769] tmp:33 soc:99 uisoc:96 vbat:4039 ibat:-16338 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1453.641816]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x4b7, adc_result=530
+<6>[ 1453.642506]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1453.642521]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 33
+<5>[ 1453.642795]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:244 sw_iavg:-16260 -16260 0 nafg_m:0 0 0
+<5>[ 1453.642869]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1513.644273]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x4ae, adc_result=526
+<6>[ 1513.644960]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1513.646710]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5f7a, adc_result=4027
+<5>[ 1513.647013]  (0)[235:battery_thread]car[-1028,-646,-1148,-847,-1024] tmp:33 soc:98 uisoc:96 vbat:4027 ibat:-16338 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1513.647639]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x4ad, adc_result=526
+<6>[ 1513.648314]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1513.648332]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 33
+<5>[ 1513.648567]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:254 sw_iavg:-16260 -16260 0 nafg_m:2 0 0
+<5>[ 1513.649020]  (0)[235:battery_thread]battery_update_routine
+<5>[ 1573.653073]  (0)[235:battery_thread]car[-1301,-1032,-1534,-1233,-1536] tmp:34 soc:97 uisoc:95 vbat:4018 ibat:-16348 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 1573.654247]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 34
+<5>[ 1573.654485]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:253 sw_iavg:-16380 -16380 0 nafg_m:0 0 0
+<5>[ 1573.654933]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1633.655874]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x49e, adc_result=519
+<6>[ 1633.656510]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1633.658281]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5f12, adc_result=4010
+<5>[ 1633.658500]  (0)[235:battery_thread]car[-1574,-1288,-1790,-1489,-1793] tmp:34 soc:97 uisoc:94 vbat:4010 ibat:-16470 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1633.660424]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x49d, adc_result=518
+<6>[ 1633.661134]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1633.661160]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 34
+<5>[ 1633.661416]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:254 sw_iavg:-16380 -16380 0 nafg_m:3 0 0
+<5>[ 1633.661519]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1693.662932]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x497, adc_result=516
+<6>[ 1693.663695]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1693.665481]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5edf, adc_result=4002
+<5>[ 1693.665698]  (0)[235:battery_thread]car[-1848,-1551,-2053,-1752,-2047] tmp:34 soc:96 uisoc:94 vbat:4002 ibat:-16448 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1693.666253]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x496, adc_result=515
+<6>[ 1693.666896]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1693.666912]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 34
+<5>[ 1693.667180]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:249 sw_iavg:-16440 -16440 0 nafg_m:1 0 0
+<5>[ 1693.667771]  (0)[235:battery_thread]battery_update_routine
+<5>[ 1753.671847]  (0)[235:battery_thread]car[-2122,-1798,-2300,-1999,-2303] tmp:34 soc:96 uisoc:93 vbat:3994 ibat:-16496 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 1753.673074]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 34
+<5>[ 1753.673356]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:254 sw_iavg:-16440 -16440 0 nafg_m:3 0 0
+<5>[ 1753.673844]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1813.674750]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x48b, adc_result=511
+<6>[ 1813.675423]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1813.677190]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5e86, adc_result=3987
+<5>[ 1813.677418]  (0)[235:battery_thread]car[-2398,-2097,-2599,-2298,-2561] tmp:35 soc:92 uisoc:93 vbat:3987 ibat:-16549 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1813.677961]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x48a, adc_result=510
+<6>[ 1813.678800]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1813.678817]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 35
+<5>[ 1813.679095]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:254 sw_iavg:-16560 -16560 0 nafg_m:1 0 0
+<5>[ 1813.679556]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1873.680600]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x485, adc_result=508
+<6>[ 1873.681327]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1873.683077]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5e5a, adc_result=3980
+<5>[ 1873.683309]  (0)[235:battery_thread]car[-2674,-2311,-2813,-2512,-2797] tmp:35 soc:92 uisoc:92 vbat:3980 ibat:-16577 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1873.683772]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x485, adc_result=508
+<6>[ 1873.684359]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1873.684377]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 35
+<5>[ 1873.684604]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:235 sw_iavg:-16560 -16560 0 nafg_m:3 0 0
+<5>[ 1873.685075]  (0)[235:battery_thread]battery_update_routine
+<6>[ 1933.685995]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x47f, adc_result=505
+<6>[ 1933.686865]  (2)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 1933.688637]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5df4, adc_result=3963
+<5>[ 1933.688869]  (0)[235:battery_thread]car[-2951,-2646,-3148,-2847,-3043] tmp:35 soc:91 uisoc:92 vbat:3963 ibat:-17417 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 1933.689432]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x47e, adc_result=505
+<6>[ 1933.690081]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 1933.690098]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 35
+<5>[ 1933.690366]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:50 ui_lt_gap:244 sw_iavg:-16620 -16620 0 nafg_m:1 0 0
+<5>[ 1933.690808]  (0)[235:battery_thread]battery_update_routine
+<5>[ 1993.693496]  (0)[235:battery_thread]BAT_TEMP_PREV:504,BAT_TEMP:504,VBIF28:1794
+<5>[ 1993.696555]  (0)[235:battery_thread]car[-3228,-2830,-3332,-3030,-3286] tmp:35 soc:90 uisoc:91 vbat:3966 ibat:-16728 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 1993.697745]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 35
+<5>[ 1993.697972]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:51 ui_lt_gap:239 sw_iavg:-16680 -16680 0 nafg_m:3 0 0
+<5>[ 1993.698458]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2053.699367]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x476, adc_result=501
+<6>[ 2053.700179]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2053.701930]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5de0, adc_result=3960
+<5>[ 2053.702202]  (0)[235:battery_thread]car[-3506,-3198,-3700,-3394,-3525] tmp:35 soc:89 uisoc:91 vbat:3960 ibat:-16690 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2053.702745]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x477, adc_result=502
+<6>[ 2053.703428]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2053.703443]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 35
+<5>[ 2053.703732]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:55 ui_lt_gap:238 sw_iavg:-16620 -16620 0 nafg_m:1 0 0
+<5>[ 2053.704189]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2113.705595]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x474, adc_result=500
+<6>[ 2113.706292]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2113.708340]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5db9, adc_result=3953
+<5>[ 2113.708610]  (0)[235:battery_thread]car[-3785,-3517,-4019,-3711,-4000] tmp:35 soc:88 uisoc:90 vbat:3953 ibat:-16681 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2113.709119]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x473, adc_result=500
+<6>[ 2113.709771]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2113.709791]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 35
+<5>[ 2113.710096]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:57 ui_lt_gap:232 sw_iavg:-16740 -16740 0 nafg_m:3 0 0
+<5>[ 2113.710591]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2173.711923]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x46d, adc_result=497
+<6>[ 2173.712574]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2173.714330]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5d97, adc_result=3948
+<5>[ 2173.714559]  (0)[235:battery_thread]car[-4064,-3752,-4254,-3942,-4234] tmp:36 soc:87 uisoc:89 vbat:3948 ibat:-16700 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2173.715122]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x46f, adc_result=498
+<6>[ 2173.715830]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2173.715847]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 2173.716162]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:61 ui_lt_gap:231 sw_iavg:-16740 -16740 0 nafg_m:1 0 0
+<5>[ 2173.716701]  (1)[235:battery_thread]battery_update_routine
+<6>[ 2233.718346]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x469, adc_result=496
+<6>[ 2233.718917]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2233.720691]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5d66, adc_result=3940
+<5>[ 2233.720911]  (0)[235:battery_thread]car[-4344,-3984,-4486,-4179,-4470] tmp:36 soc:87 uisoc:89 vbat:3940 ibat:-16933 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2233.721460]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x46a, adc_result=496
+<6>[ 2233.722126]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2233.722143]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 2233.722421]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:56 ui_lt_gap:235 sw_iavg:-16800 -16800 0 nafg_m:3 0 0
+<5>[ 2233.722855]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2293.723875]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x467, adc_result=495
+<6>[ 2293.725818]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2293.727873]  (2)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5d48, adc_result=3935
+<5>[ 2293.728170]  (2)[235:battery_thread]car[-4624,-4308,-4810,-4500,-4708] tmp:36 soc:86 uisoc:88 vbat:3935 ibat:-16778 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2293.728734]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x466, adc_result=494
+<6>[ 2293.729406]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2293.729422]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 2293.729679]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:59 ui_lt_gap:235 sw_iavg:-16800 -16800 0 nafg_m:1 0 0
+<5>[ 2293.730184]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2353.731104]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x463, adc_result=493
+<6>[ 2353.731880]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2353.733657]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5d24, adc_result=3929
+<5>[ 2353.733877]  (0)[235:battery_thread]car[-4905,-4494,-4996,-4681,-4943] tmp:36 soc:85 uisoc:88 vbat:3929 ibat:-16945 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2353.734427]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x462, adc_result=493
+<6>[ 2353.735065]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2353.735081]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 2353.735375]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:230 sw_iavg:-16860 -16860 0 nafg_m:3 0 0
+<5>[ 2353.735446]  (0)[235:battery_thread]battery_update_routine
+<5>[ 2413.739119]  (0)[235:battery_thread]car[-5186,-4928,-5430,-5120,-5412] tmp:36 soc:84 uisoc:87 vbat:3923 ibat:-16907 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 2413.740464]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 2413.740701]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:59 ui_lt_gap:233 sw_iavg:-16860 -16860 0 nafg_m:1 0 0
+<5>[ 2413.740771]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2473.742146]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45c, adc_result=490
+<6>[ 2473.742978]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2473.744730]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5cda, adc_result=3917
+<5>[ 2473.744982]  (0)[235:battery_thread]car[-5468,-5165,-5667,-5347,-5639] tmp:36 soc:84 uisoc:86 vbat:3917 ibat:-16948 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2473.745530]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45c, adc_result=490
+<6>[ 2473.746187]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2473.746202]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 2473.746436]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:223 sw_iavg:-16920 -16920 0 nafg_m:3 0 0
+<5>[ 2473.746896]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2533.747808]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x458, adc_result=488
+<6>[ 2533.748478]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2533.750265]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5cbb, adc_result=3912
+<5>[ 2533.750479]  (0)[235:battery_thread]car[-5751,-5428,-5930,-5613,-5872] tmp:36 soc:83 uisoc:86 vbat:3912 ibat:-17087 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2533.750940]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x458, adc_result=488
+<6>[ 2533.751572]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2533.751641]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 2533.751900]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:228 sw_iavg:-16980 -16980 0 nafg_m:1 0 0
+<5>[ 2533.752364]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2593.753288]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x456, adc_result=487
+<6>[ 2593.753936]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2593.755846]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5c96, adc_result=3905
+<5>[ 2593.756063]  (1)[235:battery_thread]car[-6034,-5621,-6123,-5806,-6099] tmp:36 soc:82 uisoc:85 vbat:3905 ibat:-17002 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2593.756639]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x455, adc_result=487
+<6>[ 2593.758817]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2593.758833]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 2593.759101]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:227 sw_iavg:-16980 -16980 0 nafg_m:3 0 0
+<5>[ 2593.759562]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2653.760596]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x452, adc_result=486
+<6>[ 2653.761281]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2653.763029]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5c6c, adc_result=3899
+<5>[ 2653.763302]  (0)[235:battery_thread]car[-6318,-6038,-6540,-6221,-6328] tmp:37 soc:81 uisoc:85 vbat:3899 ibat:-17090 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2653.763756]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x452, adc_result=486
+<6>[ 2653.764482]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2653.764498]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 2653.764746]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:68 ui_lt_gap:227 sw_iavg:-17040 -17040 0 nafg_m:0 0 0
+<5>[ 2653.764828]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2713.766007]  (2)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x44e, adc_result=484
+<6>[ 2713.766646]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2713.768402]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5c47, adc_result=3892
+<5>[ 2713.768655]  (0)[235:battery_thread]car[-6602,-6304,-6806,-6489,-6780] tmp:37 soc:80 uisoc:84 vbat:3892 ibat:-17065 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2713.769198]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x450, adc_result=485
+<6>[ 2713.769895]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 2713.769912]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 2713.770166]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:225 sw_iavg:-17040 -17040 0 nafg_m:1 0 0
+<5>[ 2713.770621]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2773.772073]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x44b, adc_result=482
+<6>[ 2773.772756]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2773.774580]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5bed, adc_result=3878
+<5>[ 2773.774926]  (0)[235:battery_thread]car[-6887,-6530,-7032,-6714,-7006] tmp:37 soc:80 uisoc:83 vbat:3878 ibat:-17781 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2773.775472]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x44b, adc_result=482
+<5>[ 2773.776248]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 2773.776495]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:67 ui_lt_gap:225 sw_iavg:-17100 -17100 0 nafg_m:2 0 0
+<5>[ 2773.776938]  (0)[235:battery_thread]battery_update_routine
+<5>[ 2833.780921]  (0)[235:battery_thread]car[-7171,-6756,-7258,-6940,-7231] tmp:37 soc:79 uisoc:83 vbat:3883 ibat:-17033 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 2833.782126]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 2833.782357]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:67 ui_lt_gap:224 sw_iavg:-17040 -17040 0 nafg_m:3 0 0
+<5>[ 2833.782441]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2893.783344]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x449, adc_result=482
+<6>[ 2893.784156]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2893.785903]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5be8, adc_result=3877
+<5>[ 2893.786132]  (0)[235:battery_thread]car[-7455,-6981,-7483,-7165,-7456] tmp:37 soc:78 uisoc:82 vbat:3877 ibat:-16967 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2893.786669]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x449, adc_result=482
+<5>[ 2893.787311]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 2893.787625]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:67 ui_lt_gap:224 sw_iavg:-17040 -17040 0 nafg_m:4 0 0
+<5>[ 2893.788149]  (0)[235:battery_thread]battery_update_routine
+<6>[ 2953.789112]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x447, adc_result=481
+<6>[ 2953.789758]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 2953.791543]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5bc2, adc_result=3871
+<5>[ 2953.791923]  (0)[235:battery_thread]car[-7740,-7453,-7955,-7631,-7910] tmp:37 soc:77 uisoc:81 vbat:3871 ibat:-17121 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 2953.793713]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x447, adc_result=481
+<5>[ 2953.794362]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 2953.794622]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:73 ui_lt_gap:220 sw_iavg:-17100 -17100 0 nafg_m:0 0 0
+<5>[ 2953.795079]  (0)[235:battery_thread]battery_update_routine
+<6>[ 3013.795941]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x444, adc_result=479
+<6>[ 3013.796662]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3013.798417]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5bb1, adc_result=3868
+<5>[ 3013.798636]  (0)[235:battery_thread]car[-8025,-7689,-8191,-7867,-8136] tmp:37 soc:77 uisoc:81 vbat:3868 ibat:-17219 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 3013.799173]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x444, adc_result=479
+<5>[ 3013.799845]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 3013.800148]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:73 ui_lt_gap:220 sw_iavg:-17100 -17100 0 nafg_m:1 0 0
+<5>[ 3013.800577]  (1)[235:battery_thread]battery_update_routine
+<6>[ 3073.801999]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x441, adc_result=478
+<5>[ 3073.804649]  (0)[235:battery_thread]car[-8312,-7926,-8428,-8104,-8362] tmp:37 soc:76 uisoc:80 vbat:3859 ibat:-16876 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3073.805829]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 3073.806100]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:73 ui_lt_gap:220 sw_iavg:-17220 -17220 0 nafg_m:2 0 0
+<5>[ 3073.806446]  (1)[235:battery_thread]battery_update_routine
+<6>[ 3133.807372]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x440, adc_result=478
+<6>[ 3133.808192]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3133.809975]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5b58, adc_result=3853
+<5>[ 3133.810203]  (0)[235:battery_thread]car[-8598,-8341,-8843,-8521,-8811] tmp:37 soc:75 uisoc:79 vbat:3853 ibat:-17297 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 3133.810775]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x440, adc_result=478
+<5>[ 3133.811437]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 3133.811736]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:71 ui_lt_gap:219 sw_iavg:-17160 -17160 0 nafg_m:3 0 0
+<5>[ 3133.812170]  (0)[235:battery_thread]battery_update_routine
+<5>[ 3193.813512]  (0)[235:battery_thread]BAT_TEMP_PREV:475,BAT_TEMP:476,VBIF28:1794
+<6>[ 3193.813539]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x43c, adc_result=476
+<6>[ 3193.814221]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3193.816034]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5b42, adc_result=3849
+<5>[ 3193.816246]  (0)[235:battery_thread]car[-8887,-8565,-9067,-8745,-9035] tmp:37 soc:75 uisoc:79 vbat:3849 ibat:-17347 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3193.817453]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 3193.817695]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:71 ui_lt_gap:219 sw_iavg:-17340 -17340 0 nafg_m:4 0 0
+<5>[ 3193.818141]  (0)[235:battery_thread]battery_update_routine
+<5>[ 3253.821815]  (0)[235:battery_thread]car[-9175,-8880,-9382,-9058,-9257] tmp:37 soc:74 uisoc:78 vbat:3840 ibat:-17024 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3253.823018]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 3253.823249]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:73 ui_lt_gap:218 sw_iavg:-17280 -17280 0 nafg_m:0 0 0
+<5>[ 3253.823325]  (0)[235:battery_thread]battery_update_routine
+<6>[ 3313.825038]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x439, adc_result=475
+<6>[ 3313.825708]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3313.827461]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5aeb, adc_result=3835
+<5>[ 3313.827784]  (0)[235:battery_thread]car[-9463,-9119,-9621,-9291,-9474] tmp:37 soc:73 uisoc:78 vbat:3835 ibat:-17366 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3313.828995]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 3313.829273]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:79 ui_lt_gap:213 sw_iavg:-17280 -17280 0 nafg_m:1 0 0
+<5>[ 3313.829710]  (0)[235:battery_thread]battery_update_routine
+<6>[ 3373.830635]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x435, adc_result=473
+<6>[ 3373.831182]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3373.832936]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5ac4, adc_result=3829
+<5>[ 3373.833154]  (0)[235:battery_thread]car[-9754,-9451,-9953,-9625,-9915] tmp:38 soc:73 uisoc:77 vbat:3829 ibat:-17461 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3373.834352]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3373.834605]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:77 ui_lt_gap:213 sw_iavg:-17460 -17460 0 nafg_m:3 0 0
+<5>[ 3373.834685]  (0)[235:battery_thread]battery_update_routine
+<5>[ 3433.836120]  (0)[235:battery_thread]BAT_TEMP_PREV:472,BAT_TEMP:473,VBIF28:1794
+<6>[ 3433.836148]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x435, adc_result=473
+<6>[ 3433.836844]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3433.838596]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5aa2, adc_result=3823
+<5>[ 3433.838829]  (0)[235:battery_thread]car[-10044,-9666,-10168,-9845,-10134] tmp:38 soc:72 uisoc:76 vbat:3823 ibat:-17200 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3433.840103]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3433.840346]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:72 ui_lt_gap:217 sw_iavg:-17400 -17400 0 nafg_m:4 0 0
+<5>[ 3433.840785]  (0)[235:battery_thread]battery_update_routine
+<5>[ 3493.844483]  (0)[235:battery_thread]car[-10334,-10081,-10583,-10259,-10351] tmp:38 soc:71 uisoc:76 vbat:3816 ibat:-17495 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3493.845696]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3493.845926]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:73 ui_lt_gap:216 sw_iavg:-17400 -17400 0 nafg_m:0 0 0
+<5>[ 3493.845995]  (0)[235:battery_thread]battery_update_routine
+<6>[ 3553.846919]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x432, adc_result=471
+<6>[ 3553.847565]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3553.849432]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5a57, adc_result=3811
+<5>[ 3553.849665]  (0)[235:battery_thread]car[-10624,-10322,-10824,-10495,-10783] tmp:38 soc:70 uisoc:75 vbat:3811 ibat:-17483 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3553.850873]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3553.851111]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:77 ui_lt_gap:211 sw_iavg:-17400 -17400 0 nafg_m:1 0 0
+<5>[ 3553.851557]  (0)[235:battery_thread]battery_update_routine
+<6>[ 3613.852581]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x42e, adc_result=470
+<6>[ 3613.853261]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3613.855014]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x59f1, adc_result=3794
+<5>[ 3613.855249]  (0)[235:battery_thread]car[-10915,-10562,-11064,-10742,-11006] tmp:38 soc:70 uisoc:74 vbat:3794 ibat:-18407 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3613.857871]  (1)[235:battery_thread]BAT_TEMP_PREV:470,BAT_TEMP:469,VBIF28:1794
+<5>[ 3613.858526]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3613.858777]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:71 ui_lt_gap:217 sw_iavg:-17460 -17460 0 nafg_m:2 0 0
+<5>[ 3613.859274]  (0)[235:battery_thread]battery_update_routine
+<6>[ 3673.860262]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x42c, adc_result=469
+<6>[ 3673.861200]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3673.862990]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5a0c, adc_result=3798
+<5>[ 3673.863217]  (0)[235:battery_thread]car[-11208,-10805,-11307,-10979,-11225] tmp:38 soc:69 uisoc:74 vbat:3798 ibat:-17511 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3673.864493]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3673.864796]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:77 ui_lt_gap:213 sw_iavg:-17580 -17580 0 nafg_m:3 0 0
+<5>[ 3673.864976]  (0)[235:battery_thread]battery_update_routine
+<6>[ 3733.865897]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x42c, adc_result=469
+<6>[ 3733.866599]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3733.868365]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x59e6, adc_result=3792
+<5>[ 3733.868587]  (0)[235:battery_thread]car[-11500,-11197,-11699,-11372,-11660] tmp:38 soc:69 uisoc:73 vbat:3792 ibat:-17580 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3733.869682]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3733.869914]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:76 ui_lt_gap:212 sw_iavg:-17520 -17520 0 nafg_m:4 0 0
+<5>[ 3733.869987]  (0)[235:battery_thread]battery_update_routine
+<6>[ 3793.871193]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x428, adc_result=467
+<6>[ 3793.871846]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3793.873684]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x59bb, adc_result=3785
+<5>[ 3793.873931]  (0)[235:battery_thread]car[-11794,-11533,-12035,-11707,-11875] tmp:38 soc:68 uisoc:72 vbat:3785 ibat:-17659 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3793.875157]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3793.875439]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:77 ui_lt_gap:212 sw_iavg:-17640 -17640 0 nafg_m:0 0 0
+<5>[ 3793.875803]  (1)[235:battery_thread]battery_update_routine
+<6>[ 3853.877261]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x426, adc_result=466
+<6>[ 3853.877926]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 3853.879750]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5999, adc_result=3779
+<5>[ 3853.880012]  (1)[235:battery_thread]car[-12088,-11778,-12280,-11952,-12090] tmp:38 soc:67 uisoc:72 vbat:3779 ibat:-17605 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3853.881254]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3853.881508]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:77 ui_lt_gap:212 sw_iavg:-17640 -17640 0 nafg_m:1 0 0
+<5>[ 3853.881940]  (0)[235:battery_thread]battery_update_routine
+<5>[ 3913.885467]  (0)[235:battery_thread]car[-12385,-12058,-12560,-12239,-12525] tmp:38 soc:67 uisoc:71 vbat:3774 ibat:-17677 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3913.886668]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3913.886910]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:216 sw_iavg:-17820 -17820 0 nafg_m:2 0 0
+<5>[ 3913.886989]  (0)[235:battery_thread]battery_update_routine
+<6>[ 3973.887804]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x423, adc_result=465
+<6>[ 3973.888394]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 3973.890349]  (0)[235:battery_thread]car[-12680,-12275,-12777,-12456,-12741] tmp:38 soc:66 uisoc:70 vbat:3772 ibat:-17775 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 3973.893104]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 3973.893352]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:215 sw_iavg:-17700 -17700 0 nafg_m:3 0 0
+<5>[ 3973.893899]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4033.895201]  (2)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x421, adc_result=464
+<6>[ 4033.895853]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4033.897917]  (0)[235:battery_thread]car[-12975,-12715,-13217,-12892,-13178] tmp:38 soc:66 uisoc:69 vbat:3762 ibat:-17655 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 4033.899134]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 4033.899364]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:74 ui_lt_gap:212 sw_iavg:-17700 -17700 0 nafg_m:4 0 0
+<5>[ 4033.899757]  (1)[235:battery_thread]battery_update_routine
+<6>[ 4093.901300]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x420, adc_result=464
+<6>[ 4093.901973]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4093.904048]  (0)[235:battery_thread]car[-13271,-13003,-13505,-13179,-13395] tmp:38 soc:65 uisoc:69 vbat:3755 ibat:-17835 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 4093.905128]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 4093.905415]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:75 ui_lt_gap:212 sw_iavg:-17760 -17760 0 nafg_m:0 0 0
+<5>[ 4093.905809]  (3)[235:battery_thread]battery_update_routine
+<6>[ 4153.907306]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x421, adc_result=464
+<6>[ 4153.908027]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4153.909970]  (0)[235:battery_thread]car[-13568,-13249,-13752,-13426,-13611] tmp:38 soc:64 uisoc:68 vbat:3751 ibat:-17791 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 4153.911172]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 4153.911425]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:75 ui_lt_gap:212 sw_iavg:-17820 -17820 0 nafg_m:1 0 0
+<5>[ 4153.911867]  (1)[235:battery_thread]battery_update_routine
+<6>[ 4213.912989]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x445, adc_result=480
+<6>[ 4213.913659]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4213.915414]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x58b1, adc_result=3741
+<5>[ 4213.915701]  (0)[235:battery_thread]car[-13868,-13577,-14079,-13759,-14044] tmp:37 soc:64 uisoc:67 vbat:3741 ibat:-17718 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4213.916246]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x445, adc_result=480
+<6>[ 4213.916933]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4213.916949]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 4213.917184]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:216 sw_iavg:-18000 -18000 0 nafg_m:2 0 0
+<5>[ 4213.917628]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4273.918502]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45c, adc_result=490
+<6>[ 4273.919179]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4273.920930]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x587c, adc_result=3732
+<5>[ 4273.921198]  (0)[235:battery_thread]car[-14165,-13794,-14296,-13976,-14260] tmp:36 soc:63 uisoc:67 vbat:3732 ibat:-17913 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4273.921738]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45d, adc_result=490
+<6>[ 4273.923800]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4273.923818]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4273.924110]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:215 sw_iavg:-17820 -17820 0 nafg_m:3 0 0
+<5>[ 4273.924534]  (1)[235:battery_thread]battery_update_routine
+<6>[ 4333.925613]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x461, adc_result=492
+<6>[ 4333.926301]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4333.928282]  (0)[235:battery_thread]car[-14465,-14009,-14511,-14191,-14475] tmp:36 soc:63 uisoc:66 vbat:3724 ibat:-18036 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 4333.929478]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4333.929729]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:215 sw_iavg:-18000 -18000 0 nafg_m:4 0 0
+<5>[ 4333.929804]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4393.930747]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x463, adc_result=493
+<6>[ 4393.931438]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4393.933192]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x581e, adc_result=3717
+<5>[ 4393.933434]  (0)[235:battery_thread]car[-14765,-14489,-14991,-14666,-14916] tmp:36 soc:61 uisoc:65 vbat:3717 ibat:-17740 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4393.933971]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x462, adc_result=493
+<5>[ 4393.934660]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4393.934888]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:74 ui_lt_gap:212 sw_iavg:-18000 -18000 0 nafg_m:0 0 0
+<5>[ 4393.935345]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4453.936445]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45e, adc_result=491
+<6>[ 4453.937130]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4453.938895]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x57b9, adc_result=3700
+<5>[ 4453.939113]  (0)[235:battery_thread]car[-15065,-14738,-15240,-14915,-15132] tmp:36 soc:61 uisoc:65 vbat:3700 ibat:-18916 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4453.939791]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x460, adc_result=492
+<6>[ 4453.940368]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4453.940386]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4453.940626]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:74 ui_lt_gap:211 sw_iavg:-18000 -18000 0 nafg_m:1 0 0
+<5>[ 4453.941121]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4513.942017]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45f, adc_result=491
+<6>[ 4513.942689]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4513.944942]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x57d8, adc_result=3705
+<5>[ 4513.945224]  (0)[235:battery_thread]car[-15366,-15100,-15602,-15278,-15562] tmp:36 soc:60 uisoc:64 vbat:3705 ibat:-18058 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4513.945728]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45f, adc_result=491
+<5>[ 4513.946406]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4513.946681]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:73 ui_lt_gap:211 sw_iavg:-18060 -18060 0 nafg_m:2 0 0
+<5>[ 4513.947185]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4573.948308]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45d, adc_result=490
+<6>[ 4573.948992]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4573.950744]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x57b1, adc_result=3699
+<5>[ 4573.950985]  (0)[235:battery_thread]car[-15667,-15313,-15815,-15496,-15779] tmp:36 soc:60 uisoc:63 vbat:3699 ibat:-17769 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4573.951533]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45e, adc_result=491
+<5>[ 4573.952260]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4573.952497]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:68 ui_lt_gap:215 sw_iavg:-18060 -18060 0 nafg_m:3 0 0
+<5>[ 4573.952986]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4633.953957]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45c, adc_result=490
+<6>[ 4633.954650]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4633.956436]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5783, adc_result=3691
+<5>[ 4633.956664]  (0)[235:battery_thread]car[-15967,-15529,-16031,-15712,-15995] tmp:36 soc:59 uisoc:63 vbat:3691 ibat:-18077 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4633.958619]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45c, adc_result=490
+<6>[ 4633.959282]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4633.959298]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4633.959547]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:68 ui_lt_gap:215 sw_iavg:-18000 -18000 0 nafg_m:4 0 0
+<5>[ 4633.959897]  (1)[235:battery_thread]battery_update_routine
+<6>[ 4693.961324]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x45a, adc_result=489
+<6>[ 4693.962009]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4693.964286]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5781, adc_result=3691
+<5>[ 4693.964591]  (0)[235:battery_thread]car[-16268,-15984,-16486,-16167,-16433] tmp:36 soc:58 uisoc:62 vbat:3691 ibat:-18042 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4693.965099]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x459, adc_result=489
+<6>[ 4693.965792]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4693.965812]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4693.966044]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:68 ui_lt_gap:216 sw_iavg:-18060 -18060 0 nafg_m:0 0 0
+<5>[ 4693.966143]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4753.967504]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x456, adc_result=487
+<6>[ 4753.968343]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4753.970303]  (0)[235:battery_thread]car[-16569,-16234,-16736,-16417,-16655] tmp:36 soc:58 uisoc:61 vbat:3682 ibat:-17835 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 4753.971486]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4753.971821]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:68 ui_lt_gap:216 sw_iavg:-18060 -18060 0 nafg_m:1 0 0
+<5>[ 4753.972280]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4813.973670]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x453, adc_result=486
+<6>[ 4813.974363]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4813.976118]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5720, adc_result=3675
+<5>[ 4813.976348]  (0)[235:battery_thread]car[-16872,-16484,-16986,-16667,-16876] tmp:36 soc:57 uisoc:61 vbat:3675 ibat:-18206 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4813.976892]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x453, adc_result=486
+<5>[ 4813.977541]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 36
+<5>[ 4813.977795]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:68 ui_lt_gap:216 sw_iavg:-18180 -18180 0 nafg_m:2 0 0
+<5>[ 4813.978274]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4873.979131]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x452, adc_result=486
+<6>[ 4873.979830]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4873.981690]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5723, adc_result=3676
+<5>[ 4873.981900]  (0)[235:battery_thread]car[-17174,-16844,-17346,-17023,-17306] tmp:36 soc:57 uisoc:60 vbat:3676 ibat:-18212 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4873.982436]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x451, adc_result=485
+<5>[ 4873.983113]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 4873.983378]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:72 ui_lt_gap:211 sw_iavg:-18120 -18120 0 nafg_m:3 0 0
+<5>[ 4873.983877]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4933.985211]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x44f, adc_result=484
+<6>[ 4933.985904]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4933.987682]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x56dc, adc_result=3664
+<5>[ 4933.987975]  (1)[235:battery_thread]car[-17477,-17058,-17560,-17237,-17520] tmp:37 soc:56 uisoc:59 vbat:3664 ibat:-17876 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4933.989928]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x450, adc_result=485
+<6>[ 4933.990589]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 4933.990605]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 4933.990877]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:72 ui_lt_gap:211 sw_iavg:-18180 -18180 0 nafg_m:4 0 0
+<5>[ 4933.991311]  (0)[235:battery_thread]battery_update_routine
+<6>[ 4993.992301]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x44d, adc_result=483
+<6>[ 4993.992978]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 4993.994733]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x56cc, adc_result=3661
+<5>[ 4993.994962]  (0)[235:battery_thread]car[-17781,-17490,-17992,-17669,-17951] tmp:37 soc:55 uisoc:58 vbat:3661 ibat:-18256 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 4993.995497]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x44c, adc_result=483
+<5>[ 4993.996223]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 4993.996477]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:72 ui_lt_gap:210 sw_iavg:-18240 -18240 0 nafg_m:0 0 0
+<5>[ 4993.996903]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5053.998263]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x44a, adc_result=482
+<6>[ 5053.998955]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5054.000712]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x56be, adc_result=3659
+<5>[ 5054.001034]  (0)[235:battery_thread]car[-18086,-17743,-18245,-17927,-18174] tmp:37 soc:55 uisoc:58 vbat:3659 ibat:-18237 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5054.002263]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5054.002544]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:67 ui_lt_gap:217 sw_iavg:-18300 -18300 0 nafg_m:1 0 0
+<5>[ 5054.002978]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5114.003786]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x447, adc_result=481
+<6>[ 5114.004408]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5114.006176]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x568e, adc_result=3651
+<5>[ 5114.006405]  (0)[235:battery_thread]car[-18390,-17995,-18497,-18179,-18395] tmp:37 soc:54 uisoc:57 vbat:3651 ibat:-18162 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 5114.006951]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x448, adc_result=481
+<6>[ 5114.007648]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 5114.007668]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5114.007987]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:67 ui_lt_gap:216 sw_iavg:-18240 -18240 0 nafg_m:2 0 0
+<5>[ 5114.008431]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5174.009300]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x446, adc_result=480
+<6>[ 5174.009974]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5174.011787]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5670, adc_result=3646
+<5>[ 5174.012028]  (0)[235:battery_thread]car[-18696,-18368,-18870,-18548,-18830] tmp:37 soc:54 uisoc:56 vbat:3646 ibat:-18369 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 5174.012567]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x445, adc_result=480
+<6>[ 5174.013096]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 5174.013111]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5174.013371]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:71 ui_lt_gap:211 sw_iavg:-18360 -18360 0 nafg_m:3 0 0
+<5>[ 5174.013430]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5234.014345]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x443, adc_result=479
+<6>[ 5234.015038]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5234.016805]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5658, adc_result=3642
+<5>[ 5234.017028]  (0)[235:battery_thread]car[-19001,-18581,-19083,-18771,-19052] tmp:37 soc:53 uisoc:56 vbat:3642 ibat:-18382 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5234.018258]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5234.018534]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:61 ui_lt_gap:220 sw_iavg:-18300 -18300 0 nafg_m:4 0 0
+<5>[ 5234.018970]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5294.019795]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x43e, adc_result=477
+<6>[ 5294.020407]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5294.022165]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x55fa, adc_result=3627
+<5>[ 5294.022400]  (0)[235:battery_thread]car[-19307,-19018,-19520,-19203,-19483] tmp:37 soc:52 uisoc:55 vbat:3627 ibat:-19130 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5294.026608]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5294.026837]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:214 sw_iavg:-18360 -18360 0 nafg_m:1 0 0
+<5>[ 5294.027256]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5354.028306]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x43e, adc_result=477
+<6>[ 5354.028996]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5354.030752]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5611, adc_result=3630
+<5>[ 5354.030982]  (0)[235:battery_thread]car[-19614,-19262,-19764,-19447,-19705] tmp:37 soc:51 uisoc:54 vbat:3630 ibat:-18642 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 5354.031522]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x43e, adc_result=477
+<5>[ 5354.032118]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5354.032393]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:216 sw_iavg:-18420 -18420 0 nafg_m:2 0 0
+<5>[ 5354.032879]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5414.033811]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x43c, adc_result=476
+<5>[ 5414.036436]  (0)[235:battery_thread]car[-19921,-19517,-20019,-19701,-19927] tmp:37 soc:51 uisoc:54 vbat:3631 ibat:-18451 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5414.037629]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5414.037914]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:67 ui_lt_gap:216 sw_iavg:-18420 -18420 0 nafg_m:3 0 0
+<5>[ 5414.038356]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5474.039213]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x43a, adc_result=475
+<6>[ 5474.039863]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 5474.041838]  (0)[235:battery_thread]car[-20229,-19900,-20402,-20080,-20361] tmp:37 soc:50 uisoc:53 vbat:3623 ibat:-18312 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5474.043023]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5474.043253]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:71 ui_lt_gap:210 sw_iavg:-18480 -18480 0 nafg_m:4 0 0
+<5>[ 5474.043309]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5534.044314]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x438, adc_result=474
+<6>[ 5534.045001]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5534.046772]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x55cb, adc_result=3619
+<5>[ 5534.047068]  (0)[235:battery_thread]car[-20537,-20282,-20784,-20461,-20574] tmp:37 soc:49 uisoc:52 vbat:3619 ibat:-18510 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5534.048305]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5534.048589]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:72 ui_lt_gap:210 sw_iavg:-18480 -18480 0 nafg_m:0 0 0
+<5>[ 5534.049029]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5594.049940]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x436, adc_result=473
+<6>[ 5594.050595]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5594.052348]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x55ad, adc_result=3614
+<5>[ 5594.052579]  (0)[235:battery_thread]car[-20845,-20538,-21040,-20723,-21002] tmp:37 soc:49 uisoc:51 vbat:3614 ibat:-18545 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5594.053775]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 37
+<5>[ 5594.053999]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:213 sw_iavg:-18480 -18480 0 nafg_m:1 0 0
+<5>[ 5594.054074]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5654.056296]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x434, adc_result=472
+<6>[ 5654.056958]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 5654.058930]  (0)[235:battery_thread]car[-21154,-20794,-21296,-20979,-21224] tmp:38 soc:48 uisoc:51 vbat:3610 ibat:-18548 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5654.060332]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 5654.060561]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:216 sw_iavg:-18540 -18540 0 nafg_m:2 0 0
+<5>[ 5654.061026]  (0)[235:battery_thread]battery_update_routine
+<5>[ 5714.062508]  (0)[235:battery_thread]BAT_TEMP_PREV:471,BAT_TEMP:471,VBIF28:1794
+<6>[ 5714.062535]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x432, adc_result=471
+<6>[ 5714.063216]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5714.064986]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x557c, adc_result=3606
+<5>[ 5714.065217]  (0)[235:battery_thread]car[-21463,-21197,-21699,-21377,-21657] tmp:38 soc:47 uisoc:50 vbat:3606 ibat:-18598 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5714.066412]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 5714.066692]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:71 ui_lt_gap:209 sw_iavg:-18540 -18540 0 nafg_m:3 0 0
+<5>[ 5714.067115]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5774.068071]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x430, adc_result=471
+<6>[ 5774.068983]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5774.070760]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5563, adc_result=3602
+<5>[ 5774.070982]  (0)[235:battery_thread]car[-21773,-21409,-21911,-21589,-21869] tmp:38 soc:47 uisoc:49 vbat:3602 ibat:-18749 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5774.072844]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 5774.073134]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:71 ui_lt_gap:209 sw_iavg:-18600 -18600 0 nafg_m:4 0 0
+<5>[ 5774.073697]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5834.074568]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x430, adc_result=471
+<5>[ 5834.077239]  (0)[235:battery_thread]car[-22083,-21828,-22330,-22013,-22291] tmp:38 soc:46 uisoc:48 vbat:3598 ibat:-18561 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5834.078415]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 5834.078704]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:212 sw_iavg:-18600 -18600 0 nafg_m:0 0 0
+<5>[ 5834.078771]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5894.079784]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x42d, adc_result=469
+<6>[ 5894.080333]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 5894.082308]  (0)[235:battery_thread]car[-22394,-22078,-22580,-22263,-22512] tmp:38 soc:45 uisoc:48 vbat:3594 ibat:-18699 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5894.083416]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 5894.083690]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:214 sw_iavg:-18660 -18660 0 nafg_m:1 0 0
+<5>[ 5894.083761]  (0)[235:battery_thread]battery_update_routine
+<6>[ 5954.084720]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x42d, adc_result=469
+<6>[ 5954.085386]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 5954.087154]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x551c, adc_result=3590
+<5>[ 5954.087372]  (0)[235:battery_thread]car[-22705,-22335,-22837,-22520,-22732] tmp:38 soc:45 uisoc:47 vbat:3590 ibat:-18674 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 5954.089957]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 5954.090194]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:214 sw_iavg:-18660 -18660 0 nafg_m:2 0 0
+<5>[ 5954.090623]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6014.091854]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x42a, adc_result=468
+<6>[ 6014.092490]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 6014.094244]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5503, adc_result=3586
+<5>[ 6014.094484]  (0)[235:battery_thread]car[-23016,-22699,-23201,-22880,-23158] tmp:38 soc:44 uisoc:46 vbat:3586 ibat:-18730 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6014.095728]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6014.096038]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:208 sw_iavg:-18660 -18660 0 nafg_m:3 0 0
+<5>[ 6014.096548]  (1)[235:battery_thread]battery_update_routine
+<6>[ 6074.097567]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x428, adc_result=467
+<6>[ 6074.098231]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 6074.100037]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x54e9, adc_result=3582
+<5>[ 6074.100313]  (1)[235:battery_thread]car[-23327,-22909,-23411,-23089,-23368] tmp:38 soc:43 uisoc:46 vbat:3582 ibat:-18721 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 6074.101067]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x428, adc_result=467
+<5>[ 6074.101730]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6074.101972]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:71 ui_lt_gap:208 sw_iavg:-18660 -18660 0 nafg_m:4 0 0
+<5>[ 6074.102027]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6134.103080]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x424, adc_result=465
+<6>[ 6134.103695]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 6134.105448]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5499, adc_result=3568
+<5>[ 6134.105682]  (0)[235:battery_thread]car[-23640,-23368,-23870,-23553,-23800] tmp:38 soc:42 uisoc:45 vbat:3568 ibat:-19651 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6134.106844]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6134.107111]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:214 sw_iavg:-18780 -18780 0 nafg_m:0 0 0
+<5>[ 6134.107559]  (1)[235:battery_thread]battery_update_routine
+<6>[ 6194.108508]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x425, adc_result=466
+<6>[ 6194.109173]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 6194.110937]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x54df, adc_result=3580
+<5>[ 6194.111183]  (0)[235:battery_thread]car[-23952,-23628,-24130,-23808,-24015] tmp:38 soc:42 uisoc:44 vbat:3580 ibat:-18897 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6194.112492]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6194.112754]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:71 ui_lt_gap:209 sw_iavg:-18720 -18720 0 nafg_m:1 0 0
+<5>[ 6194.113190]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6254.114521]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x424, adc_result=465
+<5>[ 6254.117130]  (0)[235:battery_thread]car[-24265,-23984,-24486,-24165,-24442] tmp:38 soc:41 uisoc:43 vbat:3571 ibat:-18457 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6254.118126]  (0)[235:battery_thread]BAT_TEMP_PREV:465,BAT_TEMP:465,VBIF28:1794
+<5>[ 6254.118765]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6254.119041]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:207 sw_iavg:-18780 -18780 0 nafg_m:2 0 0
+<5>[ 6254.119500]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6314.121849]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x422, adc_result=464
+<6>[ 6314.122503]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 6314.124256]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5495, adc_result=3568
+<5>[ 6314.124489]  (0)[235:battery_thread]car[-24578,-24193,-24695,-24374,-24651] tmp:38 soc:41 uisoc:43 vbat:3568 ibat:-18919 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6314.125721]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6314.126004]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:207 sw_iavg:-18780 -18780 0 nafg_m:3 0 0
+<5>[ 6314.126437]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6374.127318]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x421, adc_result=464
+<6>[ 6374.128044]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 6374.129801]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5495, adc_result=3568
+<5>[ 6374.130058]  (0)[235:battery_thread]car[-24891,-24615,-25117,-24801,-25079] tmp:38 soc:40 uisoc:42 vbat:3568 ibat:-18878 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 6374.130596]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x41f, adc_result=463
+<6>[ 6374.131277]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 6374.131292]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6374.131513]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:65 ui_lt_gap:213 sw_iavg:-18780 -18780 0 nafg_m:4 0 0
+<5>[ 6374.132366]  (0)[235:battery_thread]battery_update_routine
+<5>[ 6434.133720]  (0)[235:battery_thread]BAT_TEMP_PREV:463,BAT_TEMP:463,VBIF28:1794
+<6>[ 6434.133746]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x41e, adc_result=463
+<6>[ 6434.134440]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 6434.136443]  (0)[235:battery_thread]car[-25206,-24927,-25429,-25112,-25296] tmp:38 soc:39 uisoc:41 vbat:3560 ibat:-18668 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6434.137785]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6434.138074]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:66 ui_lt_gap:212 sw_iavg:-18900 -18900 0 nafg_m:0 0 0
+<5>[ 6434.138544]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6494.139456]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x41c, adc_result=462
+<6>[ 6494.140296]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 6494.142246]  (0)[235:battery_thread]car[-25520,-25259,-25761,-25440,-25717] tmp:38 soc:38 uisoc:40 vbat:3558 ibat:-18891 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6494.143520]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6494.143848]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:207 sw_iavg:-18840 -18840 0 nafg_m:1 0 0
+<5>[ 6494.144278]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6554.145238]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x41c, adc_result=462
+<6>[ 6554.145901]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 6554.147981]  (1)[235:battery_thread]car[-25835,-25467,-25969,-25648,-25924] tmp:38 soc:38 uisoc:40 vbat:3559 ibat:-18907 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6554.149199]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6554.149427]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:206 sw_iavg:-18900 -18900 0 nafg_m:2 0 0
+<5>[ 6554.149873]  (0)[235:battery_thread]battery_update_routine
+<5>[ 6614.153261]  (0)[235:battery_thread]car[-26150,-25898,-26400,-26079,-26357] tmp:38 soc:37 uisoc:39 vbat:3546 ibat:-19051 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6614.155862]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 38
+<5>[ 6614.156147]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:208 sw_iavg:-18900 -18900 0 nafg_m:3 0 0
+<5>[ 6614.156201]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6674.157548]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x418, adc_result=460
+<6>[ 6674.158230]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 6674.160078]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x541a, adc_result=3548
+<5>[ 6674.160310]  (0)[235:battery_thread]car[-26465,-26111,-26613,-26292,-26569] tmp:39 soc:37 uisoc:38 vbat:3548 ibat:-18907 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 6674.160854]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x419, adc_result=460
+<6>[ 6674.161538]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 6674.161554]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 6674.161853]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:207 sw_iavg:-18900 -18900 0 nafg_m:4 0 0
+<5>[ 6674.162321]  (0)[235:battery_thread]battery_update_routine
+<5>[ 6734.165799]  (0)[235:battery_thread]car[-26782,-26528,-27030,-26709,-26984] tmp:39 soc:36 uisoc:37 vbat:3549 ibat:-18938 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6734.166996]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 6734.167224]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:205 sw_iavg:-19020 -19020 0 nafg_m:0 0 0
+<5>[ 6734.167287]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6794.168290]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x416, adc_result=459
+<6>[ 6794.168981]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 6794.170962]  (0)[235:battery_thread]car[-27098,-26757,-27259,-26943,-27202] tmp:39 soc:35 uisoc:37 vbat:3542 ibat:-18756 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6794.172203]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 6794.172470]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:65 ui_lt_gap:212 sw_iavg:-18960 -18960 0 nafg_m:1 0 0
+<5>[ 6794.172968]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6854.173794]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x414, adc_result=458
+<6>[ 6854.174471]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 6854.176552]  (0)[235:battery_thread]car[-27414,-27019,-27521,-27200,-27415] tmp:39 soc:34 uisoc:36 vbat:3538 ibat:-19010 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6854.177870]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 6854.178146]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:207 sw_iavg:-18960 -18960 0 nafg_m:2 0 0
+<5>[ 6854.178575]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6914.179444]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x412, adc_result=457
+<6>[ 6914.180207]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 6914.182195]  (0)[235:battery_thread]car[-27730,-27377,-27879,-27563,-27838] tmp:39 soc:34 uisoc:35 vbat:3537 ibat:-19039 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 6914.183346]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 6914.183702]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:65 ui_lt_gap:210 sw_iavg:-18960 -18960 0 nafg_m:3 0 0
+<5>[ 6914.184144]  (0)[235:battery_thread]battery_update_routine
+<6>[ 6974.185071]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x410, adc_result=457
+<6>[ 6974.185763]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 6974.189053]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5383, adc_result=3523
+<5>[ 6974.189272]  (0)[235:battery_thread]car[-28048,-27589,-28091,-27770,-28045] tmp:39 soc:33 uisoc:35 vbat:3523 ibat:-19780 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 6974.189813]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x40f, adc_result=456
+<6>[ 6974.190504]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 6974.190520]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 6974.190775]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:205 sw_iavg:-19080 -19080 0 nafg_m:4 0 0
+<5>[ 6974.191246]  (0)[235:battery_thread]battery_update_routine
+<6>[ 7034.192273]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x40e, adc_result=456
+<6>[ 7034.192963]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7034.194951]  (0)[235:battery_thread]car[-28365,-28071,-28573,-28252,-28476] tmp:39 soc:32 uisoc:34 vbat:3531 ibat:-19089 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7034.196246]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7034.196496]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:207 sw_iavg:-19080 -19080 0 nafg_m:0 0 0
+<5>[ 7034.196959]  (0)[235:battery_thread]battery_update_routine
+<5>[ 7094.200907]  (0)[235:battery_thread]car[-28683,-28334,-28836,-28515,-28687] tmp:39 soc:32 uisoc:33 vbat:3529 ibat:-19098 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7094.202095]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7094.202347]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:70 ui_lt_gap:206 sw_iavg:-19020 -19020 0 nafg_m:1 0 0
+<5>[ 7094.202424]  (0)[235:battery_thread]battery_update_routine
+<6>[ 7154.203317]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x40e, adc_result=456
+<6>[ 7154.204278]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7154.206272]  (0)[235:battery_thread]car[-29001,-28650,-29152,-28832,-29105] tmp:39 soc:31 uisoc:32 vbat:3526 ibat:-19026 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7154.207428]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7154.207745]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:204 sw_iavg:-19080 -19080 0 nafg_m:2 0 0
+<5>[ 7154.208184]  (0)[235:battery_thread]battery_update_routine
+<5>[ 7214.212072]  (0)[235:battery_thread]car[-29319,-29066,-29568,-29253,-29528] tmp:39 soc:30 uisoc:31 vbat:3523 ibat:-19114 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7214.213371]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7214.213643]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:211 sw_iavg:-19080 -19080 0 nafg_m:3 0 0
+<5>[ 7214.213710]  (0)[235:battery_thread]battery_update_routine
+<6>[ 7274.214572]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x409, adc_result=453
+<6>[ 7274.215257]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 7274.217014]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5377, adc_result=3521
+<5>[ 7274.217226]  (0)[235:battery_thread]car[-29638,-29282,-29784,-29464,-29739] tmp:39 soc:30 uisoc:31 vbat:3521 ibat:-19202 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 7274.217763]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x408, adc_result=453
+<6>[ 7274.218442]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7274.218458]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7274.218738]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:206 sw_iavg:-19140 -19140 0 nafg_m:4 0 0
+<5>[ 7274.218812]  (0)[235:battery_thread]battery_update_routine
+<6>[ 7334.220775]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x40a, adc_result=454
+<6>[ 7334.221437]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7334.223391]  (0)[235:battery_thread]car[-29957,-29701,-30203,-29888,-30160] tmp:39 soc:29 uisoc:30 vbat:3518 ibat:-19152 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7334.224607]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7334.224901]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:208 sw_iavg:-19140 -19140 0 nafg_m:1 0 0
+<5>[ 7334.225332]  (0)[235:battery_thread]battery_update_routine
+<6>[ 7394.226229]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x407, adc_result=453
+<6>[ 7394.226878]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7394.228856]  (0)[235:battery_thread]car[-30276,-29918,-30420,-30105,-30379] tmp:39 soc:28 uisoc:29 vbat:3516 ibat:-19161 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7394.230004]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7394.230275]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:212 sw_iavg:-19140 -19140 0 nafg_m:2 0 0
+<5>[ 7394.230349]  (0)[235:battery_thread]battery_update_routine
+<6>[ 7454.231473]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x405, adc_result=452
+<6>[ 7454.232555]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7454.234626]  (0)[235:battery_thread]car[-30595,-30182,-30684,-30364,-30592] tmp:39 soc:28 uisoc:29 vbat:3514 ibat:-19265 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7454.235869]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7454.236135]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:206 sw_iavg:-19140 -19140 0 nafg_m:3 0 0
+<5>[ 7454.236591]  (1)[235:battery_thread]battery_update_routine
+<5>[ 7514.240493]  (0)[235:battery_thread]car[-30915,-30554,-31056,-30741,-31013] tmp:39 soc:27 uisoc:28 vbat:3516 ibat:-19186 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7514.241707]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7514.241991]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:208 sw_iavg:-19200 -19200 0 nafg_m:4 0 0
+<5>[ 7514.242065]  (0)[235:battery_thread]battery_update_routine
+<4>[ 7574.243116] -(0)[235:battery_thread]mt635x_auxadc_read_raw: 4 callbacks suppressed
+<6>[ 7574.243134]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x402, adc_result=450
+<6>[ 7574.243817]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 7574.245625]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x532f, adc_result=3509
+<5>[ 7574.245862]  (0)[235:battery_thread]car[-31235,-30978,-31480,-31150,-31422] tmp:39 soc:26 uisoc:27 vbat:3509 ibat:-18954 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 7574.246400]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x402, adc_result=450
+<6>[ 7574.247056]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7574.247071]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7574.247299]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:79 ui_lt_gap:193 sw_iavg:-19200 -19200 0 nafg_m:0 0 0
+<5>[ 7574.247816]  (1)[235:battery_thread]battery_update_routine
+<6>[ 7634.248852]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x401, adc_result=450
+<6>[ 7634.249537]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7634.251532]  (0)[235:battery_thread]car[-31554,-31243,-31745,-31435,-31642] tmp:39 soc:25 uisoc:26 vbat:3507 ibat:-19230 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7634.253966]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7634.254262]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:59 ui_lt_gap:214 sw_iavg:-19140 -19140 0 nafg_m:1 0 0
+<5>[ 7634.254748]  (0)[235:battery_thread]battery_update_routine
+<6>[ 7694.255807]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3ff, adc_result=449
+<6>[ 7694.256444]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7694.258429]  (0)[235:battery_thread]car[-31875,-31603,-32105,-31790,-32061] tmp:39 soc:25 uisoc:25 vbat:3509 ibat:-19243 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7694.259699]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7694.259934]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:207 sw_iavg:-19260 -19260 0 nafg_m:2 0 0
+<5>[ 7694.260393]  (1)[235:battery_thread]battery_update_routine
+<6>[ 7754.261904]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fe, adc_result=449
+<6>[ 7754.262571]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7754.264531]  (0)[235:battery_thread]car[-32196,-31811,-32313,-31998,-32268] tmp:39 soc:24 uisoc:25 vbat:3501 ibat:-18951 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7754.265713]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7754.265986]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:206 sw_iavg:-19260 -19260 0 nafg_m:3 0 0
+<5>[ 7754.266438]  (2)[235:battery_thread]battery_update_routine
+<6>[ 7814.267497]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fe, adc_result=449
+<6>[ 7814.268280]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7814.270271]  (0)[235:battery_thread]car[-32517,-32244,-32746,-32426,-32699] tmp:39 soc:23 uisoc:24 vbat:3499 ibat:-19491 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7814.271465]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7814.271854]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:204 sw_iavg:-19260 -19260 0 nafg_m:4 0 0
+<5>[ 7814.271927]  (0)[235:battery_thread]battery_update_routine
+<6>[ 7874.272891]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3ff, adc_result=449
+<6>[ 7874.273538]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 7874.275301]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x52eb, adc_result=3498
+<5>[ 7874.275519]  (0)[235:battery_thread]car[-32838,-32573,-33075,-32755,-32906] tmp:39 soc:22 uisoc:23 vbat:3498 ibat:-19340 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 7874.275965]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x400, adc_result=450
+<6>[ 7874.276640]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7874.276655]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7874.276936]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:203 sw_iavg:-19260 -19260 0 nafg_m:0 0 0
+<5>[ 7874.277365]  (0)[235:battery_thread]battery_update_routine
+<5>[ 7934.280901]  (0)[235:battery_thread]car[-33160,-32861,-33363,-33048,-33316] tmp:39 soc:22 uisoc:22 vbat:3491 ibat:-19321 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7934.282109]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7934.282338]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:204 sw_iavg:-19320 -19320 0 nafg_m:1 0 0
+<5>[ 7934.282412]  (0)[235:battery_thread]battery_update_routine
+<6>[ 7994.283300]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fe, adc_result=449
+<6>[ 7994.283971]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 7994.285962]  (0)[235:battery_thread]car[-33481,-33106,-33608,-33298,-33535] tmp:39 soc:21 uisoc:22 vbat:3490 ibat:-19381 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 7994.288988]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 7994.289269]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:59 ui_lt_gap:213 sw_iavg:-19260 -19260 0 nafg_m:2 0 0
+<5>[ 7994.289773]  (0)[235:battery_thread]battery_update_routine
+<6>[ 8054.290817]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fd, adc_result=448
+<6>[ 8054.291800]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8054.294068]  (0)[235:battery_thread]car[-33804,-33501,-34003,-33688,-33958] tmp:39 soc:21 uisoc:21 vbat:3487 ibat:-19391 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8054.295327]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 8054.296010]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:206 sw_iavg:-19380 -19380 0 nafg_m:3 0 0
+<5>[ 8054.296046]  (1)[235:battery_thread]battery_update_routine
+<6>[ 8114.297480]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fe, adc_result=449
+<6>[ 8114.298146]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8114.300569]  (0)[235:battery_thread]car[-34127,-33709,-34211,-33891,-34159] tmp:39 soc:20 uisoc:20 vbat:3482 ibat:-19067 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8114.301729]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 8114.301962]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:69 ui_lt_gap:199 sw_iavg:-19380 -19380 0 nafg_m:4 0 0
+<5>[ 8114.302440]  (0)[235:battery_thread]battery_update_routine
+<6>[ 8174.303679]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fc, adc_result=448
+<6>[ 8174.304392]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 8174.306161]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x5279, adc_result=3479
+<5>[ 8174.306370]  (0)[235:battery_thread]car[-34450,-34176,-34678,-34368,-34578] tmp:39 soc:19 uisoc:19 vbat:3479 ibat:-19394 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 8174.306910]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fd, adc_result=448
+<6>[ 8174.307650]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8174.307666]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 8174.307940]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:59 ui_lt_gap:211 sw_iavg:-19380 -19380 0 nafg_m:0 0 0
+<5>[ 8174.308382]  (0)[235:battery_thread]battery_update_routine
+<6>[ 8234.309288]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fd, adc_result=448
+<6>[ 8234.309959]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8234.312034]  (1)[235:battery_thread]car[-34773,-34444,-34946,-34631,-34788] tmp:39 soc:18 uisoc:19 vbat:3476 ibat:-19488 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8234.313038]  (0)[235:battery_thread]BAT_TEMP_PREV:448,BAT_TEMP:448,VBIF28:1794
+<5>[ 8234.313689]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 8234.313967]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:64 ui_lt_gap:205 sw_iavg:-19380 -19380 0 nafg_m:1 0 0
+<5>[ 8234.314407]  (0)[235:battery_thread]battery_update_routine
+<6>[ 8294.315378]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fb, adc_result=447
+<6>[ 8294.316153]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8294.318125]  (0)[235:battery_thread]car[-35096,-34744,-35246,-34936,-35200] tmp:39 soc:18 uisoc:18 vbat:3471 ibat:-19309 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8294.320891]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 8294.321282]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:59 ui_lt_gap:205 sw_iavg:-19440 -19440 0 nafg_m:2 0 0
+<5>[ 8294.321736]  (1)[235:battery_thread]battery_update_routine
+<6>[ 8354.323242]  (2)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3f9, adc_result=446
+<6>[ 8354.324379]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8354.326486]  (0)[235:battery_thread]car[-35421,-34981,-35483,-35178,-35422] tmp:40 soc:17 uisoc:17 vbat:3467 ibat:-19585 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8354.327894]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 39
+<5>[ 8354.328143]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:54 ui_lt_gap:215 sw_iavg:-19440 -19440 0 nafg_m:3 0 0
+<5>[ 8354.328595]  (1)[235:battery_thread]battery_update_routine
+<6>[ 8414.330170]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3fa, adc_result=447
+<6>[ 8414.330847]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8414.332808]  (0)[235:battery_thread]car[-35746,-35387,-35889,-35570,-35836] tmp:39 soc:17 uisoc:16 vbat:3463 ibat:-19538 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8414.333986]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8414.334218]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:68 ui_lt_gap:198 sw_iavg:-19500 -19500 0 nafg_m:4 0 0
+<5>[ 8414.334676]  (0)[235:battery_thread]battery_update_routine
+<6>[ 8474.335634]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3f7, adc_result=446
+<6>[ 8474.336334]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<6>[ 8474.338088]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:ISENSE, channel=1, adc_out=0x51f8, adc_result=3458
+<5>[ 8474.338322]  (0)[235:battery_thread]car[-36071,-35790,-36292,-35968,-36228] tmp:40 soc:15 uisoc:15 vbat:3458 ibat:-19416 algo:0 gm3:0 0 0 0,boot:0
+<6>[ 8474.338862]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3f7, adc_result=446
+<6>[ 8474.339541]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8474.339556]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8474.339835]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:73 ui_lt_gap:187 sw_iavg:-19500 -19500 0 nafg_m:0 0 0
+<5>[ 8474.340265]  (0)[235:battery_thread]battery_update_routine
+<5>[ 8534.344036]  (0)[235:battery_thread]car[-36397,-36060,-36562,-36257,-36444] tmp:40 soc:15 uisoc:15 vbat:3449 ibat:-19623 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8534.345214]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8534.345447]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:54 ui_lt_gap:210 sw_iavg:-19560 -19560 0 nafg_m:1 0 0
+<5>[ 8534.345522]  (0)[235:battery_thread]battery_update_routine
+<6>[ 8594.346413]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3f3, adc_result=444
+<6>[ 8594.347108]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8594.349067]  (0)[235:battery_thread]car[-36724,-36394,-36896,-36582,-36841] tmp:40 soc:14 uisoc:14 vbat:3449 ibat:-19705 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8594.350279]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8594.350545]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:63 ui_lt_gap:196 sw_iavg:-19620 -19620 0 nafg_m:2 0 0
+<5>[ 8594.350615]  (0)[235:battery_thread]battery_update_routine
+<5>[ 8654.355352]  (1)[235:battery_thread]car[-37051,-36602,-37104,-36799,-37059] tmp:40 soc:13 uisoc:13 vbat:3427 ibat:-20752 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8654.356445]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8654.356669]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:54 ui_lt_gap:212 sw_iavg:-19620 -19620 0 nafg_m:3 0 0
+<5>[ 8654.356717]  (1)[235:battery_thread]battery_update_routine
+<5>[ 8714.358208]  (0)[235:battery_thread]BAT_TEMP_PREV:443,BAT_TEMP:443,VBIF28:1794
+<5>[ 8714.360832]  (0)[235:battery_thread]car[-37379,-37015,-37517,-37203,-37463] tmp:40 soc:13 uisoc:12 vbat:3437 ibat:-19780 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8714.362033]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8714.362265]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:63 ui_lt_gap:197 sw_iavg:-19680 -19680 0 nafg_m:4 0 0
+<5>[ 8714.362714]  (0)[235:battery_thread]battery_update_routine
+<5>[ 8774.366184]  (1)[235:battery_thread]car[-37710,-37419,-37921,-37616,-37876] tmp:40 soc:12 uisoc:11 vbat:3412 ibat:-20997 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8774.367292]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8774.367531]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:54 ui_lt_gap:211 sw_iavg:-19860 -19860 0 nafg_m:0 0 0
+<5>[ 8774.367582]  (1)[235:battery_thread]battery_update_routine
+<6>[ 8834.368717]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3ee, adc_result=442
+<6>[ 8834.369391]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8834.371382]  (0)[235:battery_thread]car[-38039,-37693,-38195,-37876,-38078] tmp:40 soc:11 uisoc:11 vbat:3424 ibat:-19708 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8834.372692]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8834.373046]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:68 ui_lt_gap:195 sw_iavg:-19740 -19740 0 nafg_m:1 0 0
+<5>[ 8834.373500]  (0)[235:battery_thread]battery_update_routine
+<6>[ 8894.374847]  (2)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3e7, adc_result=439
+<6>[ 8894.375454]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 8894.377525]  (0)[235:battery_thread]car[-38370,-38024,-38526,-38212,-38465] tmp:40 soc:10 uisoc:10 vbat:3416 ibat:-19934 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8894.378765]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8894.379054]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:63 ui_lt_gap:190 sw_iavg:-19860 -19860 0 nafg_m:2 0 0
+<5>[ 8894.379579]  (0)[235:battery_thread]battery_update_routine
+<5>[ 8954.383148]  (0)[235:battery_thread]car[-38700,-38433,-38935,-38611,-38872] tmp:40 soc:10 uisoc:9 vbat:3411 ibat:-19884 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 8954.385698]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 8954.385993]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:73 ui_lt_gap:188 sw_iavg:-19860 -19860 0 nafg_m:3 0 0
+<5>[ 8954.386441]  (0)[235:battery_thread]battery_update_routine
+<6>[ 9014.387706]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3e5, adc_result=438
+<6>[ 9014.388283]  (1)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 9014.390367]  (0)[235:battery_thread]car[-39033,-38624,-39126,-38807,-39062] tmp:40 soc:9 uisoc:8 vbat:3405 ibat:-19894 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 9014.391675]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 9014.392019]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:68 ui_lt_gap:187 sw_iavg:-19920 -19920 0 nafg_m:4 0 0
+<5>[ 9014.392475]  (0)[235:battery_thread]battery_update_routine
+<5>[ 9074.396041]  (1)[235:battery_thread]car[-39365,-39011,-39513,-39209,-39454] tmp:40 soc:8 uisoc:7 vbat:3400 ibat:-19956 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 9074.397275]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 9074.397512]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:53 ui_lt_gap:205 sw_iavg:-19920 -19920 0 nafg_m:1 0 0
+<5>[ 9074.397993]  (1)[235:battery_thread]battery_update_routine
+<6>[ 9134.400734]  (2)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3e0, adc_result=435
+<6>[ 9134.401395]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 9134.403421]  (0)[235:battery_thread]car[-39698,-39400,-39902,-39579,-39834] tmp:40 soc:8 uisoc:6 vbat:3393 ibat:-20164 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 9134.404678]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 40
+<5>[ 9134.404958]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:72 ui_lt_gap:183 sw_iavg:-19980 -19980 0 nafg_m:3 0 0
+<5>[ 9134.405533]  (0)[235:battery_thread]battery_update_routine
+<6>[ 9194.406415]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:BAT_TEMP, channel=3, adc_out=0x3df, adc_result=435
+<6>[ 9194.407084]  (0)[235:battery_thread]mt635x-auxadc mt635x-auxadc: name:VBIF, channel=11, adc_out=0xff4, adc_result=1794
+<5>[ 9194.409095]  (1)[235:battery_thread]car[-40032,-39766,-40268,-39940,-40188] tmp:40 soc:7 uisoc:5 vbat:3381 ibat:-19919 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 9194.410329]  (1)[235:battery_thread][fg_update_sw_iavg]diff time:60, bat_temp = 41
+<5>[ 9194.410604]  (1)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:77 ui_lt_gap:171 sw_iavg:-20040 -20040 0 nafg_m:1 0 0
+<5>[ 9194.411115]  (1)[235:battery_thread]battery_update_routine
+<5>[ 9254.414920]  (0)[235:battery_thread]car[-185,251,-251,83,-50] tmp:41 soc:0 uisoc:2 vbat:3372 ibat:-20148 algo:0 gm3:0 0 0 0,boot:0
+<5>[ 9254.416249]  (0)[235:battery_thread][fg_update_sw_iavg]diff time:32, bat_temp = 41
+<5>[ 9254.416284]  (0)[235:battery_thread][fg_drv_update_daemon]ui_ht_gap:83 ui_lt_gap:50 sw_iavg:-20040 -20040 0 nafg_m:3 0 0
+<5>[ 9254.416723]  (0)[235:battery_thread]battery_update_routine
