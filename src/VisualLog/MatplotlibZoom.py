@@ -390,20 +390,22 @@ class PanAndZoom(ZoomOnWheel):
             self._zoom_area(event)
 
 
-def figure_pan_and_zoom(*args, **kwargs):
+def figure_pan_and_zoom(d3 = False, *args, **kwargs):
     """matplotlib.pyplot.figure with pan and zoom interaction"""
     fig = plot.figure(*args, **kwargs)
-    fig.pan_zoom = PanAndZoom(fig)
+    if not d3:
+        fig.pan_zoom = PanAndZoom(fig)
+
     return fig
 
 class Show:
-    def __init__(self, callback = None, rows = 1, cols = 1, frame = None):
+    def __init__(self, callback = None, rows = 1, cols = 1, frame = None, d3 = False, args=[]):
 
         if callback == None:
             print("please check your show args")
             return
 
-        fig = figure_pan_and_zoom()
+        fig = figure_pan_and_zoom(d3=d3)
 
         if frame != None:
             # creating the Tkinter canvas
@@ -417,10 +419,16 @@ class Show:
 
         for row in range(rows):
             for col in range(cols):
-                fig.add_subplot(rows, cols, 1 + row * cols + col)
+                if d3:
+                    fig.add_subplot(rows, cols, 1 + row * cols + col, projection='3d')
+                else:
+                    fig.add_subplot(rows, cols, 1 + row * cols + col)
 
         for index in range(rows * cols):
-            callback(fig, index)
+            if len(args) == 0:
+                callback(fig, index)
+            else:
+                callback(fig, index, args)
 
         if frame != None:
             # update
