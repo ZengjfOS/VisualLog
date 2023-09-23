@@ -6,10 +6,34 @@ import os
 
 def defaultLineCallback(lineInfo):
     lineInfoFixed = []
+    today_year    = str(datetime.date.today().year)
+    # print(lineInfo)
 
     for index in range(len(lineInfo)):
-        lineInfoFixed.append(lineInfo[index])
-    
+        data       = None
+        dateRegex  = "(\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d*)"
+        floatRegex = "[-]?\d*\.\d*"
+        intRegex   = "[-]?\d+"
+
+        datePattern       = re.compile(dateRegex)
+        floatPattern      = re.compile(floatRegex)
+        intPattern        = re.compile(intRegex)
+        matchDatePattern  = datePattern.match(lineInfo[index])
+        matchFloatPattern = floatPattern.match(lineInfo[index])
+        matchIntPattern   = intPattern.match(lineInfo[index])
+
+        if matchDatePattern:
+            timeString = today_year + "-" + lineInfo[index]
+            data = datetime.datetime.strptime(timeString, "%Y-%m-%d %H:%M:%S.%f")
+        elif matchFloatPattern:
+            data = eval("float(lineInfo[index].strip())")
+        elif matchIntPattern:
+            data = eval("int(lineInfo[index].strip())")
+        else:
+            data = lineInfo[index].strip()
+
+        lineInfoFixed.append(data)
+
     return lineInfoFixed
 
 def getFiles(path) :
