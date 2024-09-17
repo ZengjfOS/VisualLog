@@ -62,15 +62,36 @@ def logFileParser(file = None, regex = None , callback=defaultLineCallback, file
     * ISO-8859-1
     * GB2312
     * gbk
+
+    return:
+
+    * file arg is only file path: lineInfos
+    * file arg is list or dir: lineInfos, filenames
+
     '''
 
-    if os.path.isdir(file):
+    if isinstance(file, list):
         lineInfos = []
         filenames = []
-        for f in getFiles(file):
-            lineInfos.append(_logFileParser(file + "/" + f, regex, callback, fileEncode))
-            filenames.append(f)
+
+        for f in file:
+            if os.path.isfile(f):
+                lineInfos.append(_logFileParser(f, regex, callback, fileEncode))
+                filenames.append(f)
+            else:
+                print("skip deal with dir in list")
+
         return lineInfos, filenames
+    else:
+        if os.path.isdir(file):
+            lineInfos = []
+            filenames = []
+
+            for f in getFiles(file):
+                lineInfos.append(_logFileParser(file + "/" + f, regex, callback, fileEncode))
+                filenames.append(f)
+
+            return lineInfos, filenames
 
     if os.path.isfile(file):
         return _logFileParser(file, regex, callback, fileEncode)
